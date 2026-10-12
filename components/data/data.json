@@ -1,0 +1,532 @@
+{
+  "common": {
+    "Topbar": {
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "#"
+        },
+        {
+          "icon": "Twitter",
+          "href": "#"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "#"
+        },
+        {
+          "icon": "Instagram",
+          "href": "#"
+        }
+      ],
+      "contact_info": [
+        {
+          "icon": "Phone",
+          "title": "+91 98765 43210",
+          "subtitle": "Mon - Sat: 9:00 AM - 6:00 PM"
+        },
+        {
+          "icon": "MapPin",
+          "title": "Plot No. 123, Pharma City,",
+          "subtitle": "Baddi, Himachal Pradesh - 173205"
+        },
+        {
+          "icon": "Mail",
+          "title": "info@medicarelifesciences.com",
+          "subtitle": "We Reply Within 24 Hours"
+        }
+      ]
+    },
+    "Header": {
+      "logo_text": "Medicare Life Sciences",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/",
+          "active": true
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Products",
+          "href": "/products"
+        },
+        {
+          "name": "Manufacturing Facilities",
+          "href": "/manufacturing"
+        },
+        {
+          "name": "Blogs",
+          "href": "/blogs"
+        },
+        {
+          "name": "Team",
+          "href": "/team"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Enquiry Now",
+      "button_link": "/enquire-now",
+      "logo": "/logo/logo.png"
+    },
+    "Footer": {
+      "logo_text": "Medicare Life Sciences",
+      "description": "Medicare delivers high-quality pharmaceutical products and innovative medical solutions to enhance global healthcare. Connecting people to a healthier tomorrow.",
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "#"
+        },
+        {
+          "icon": "Instagram",
+          "href": "#"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "#"
+        },
+        {
+          "icon": "Youtube",
+          "href": "#"
+        }
+      ],
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Broadband Plans",
+          "href": "/products"
+        },
+        {
+          "name": "Our Facilities",
+          "href": "/manufacturing"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "our_services": [
+        {
+          "name": "Home Broadband",
+          "href": "/products/tablets"
+        },
+        {
+          "name": "Business Internet",
+          "href": "/products/capsules"
+        },
+        {
+          "name": "Wi-Fi Solutions",
+          "href": "/products/syrups"
+        },
+        {
+          "name": "Dedicated Internet",
+          "href": "/products/injections"
+        }
+      ],
+      "contact": {
+        "address": "123 Network Street,\nNew Delhi, India 110001",
+        "phone": "+91 98765 43210",
+        "email": "support@medicare.com"
+      },
+      "gallery": [
+        {
+          "image": "/og/1.png",
+          "alt": "G1"
+        },
+        {
+          "image": "/og/2.png",
+          "alt": "G2"
+        },
+        {
+          "image": "/og/3.png",
+          "alt": "G3"
+        }
+      ],
+      "copyright": "© 2026 Medicare Life Sciences. All Rights Reserved."
+    }
+  },
+  "categories": {
+    "Healthcare": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "Medicare Life Sciences - Home"
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "ProductsSection",
+                  "component": "Products"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "StatsSection",
+                  "component": "Stats"
+                },
+                {
+                  "key": "ManufacturingSection",
+                  "component": "Manufacturing"
+                },
+                {
+                  "key": "CertificationsSection",
+                  "component": "Certifications"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "slides": [
+                {
+                  "badge_text": "HEALTHCARE FOR EVERYONE",
+                  "title_line1": "Quality Medicines",
+                  "title_line2": "for a",
+                  "title_highlight": "Healthier",
+                  "title_line3": "Tomorrow",
+                  "description": "We are committed to manufacturing high-quality medicines with a focus on innovation and patient care to improve healthcare standards around the world.",
+                  "primary_button": {
+                    "text": "Explore Our Products →",
+                    "href": "/products"
+                  },
+                  "secondary_button": {
+                    "text": "Watch Video",
+                    "href": "#"
+                  },
+                  "image": "/banner/banner.png",
+                  "floating_badge": {
+                    "value": "700+",
+                    "label": "Laboratory Experts"
+                  }
+                },
+                {
+                  "badge_text": "ADVANCED MANUFACTURING",
+                  "title_line1": "State-of-the-art",
+                  "title_line2": "Facilities for",
+                  "title_highlight": "Better",
+                  "title_line3": "Healthcare",
+                  "description": "Our cutting-edge manufacturing facilities comply with global quality standards, ensuring the production of safe and effective pharmaceuticals.",
+                  "primary_button": {
+                    "text": "View Facilities →",
+                    "href": "/manufacturing"
+                  },
+                  "secondary_button": {
+                    "text": "Learn More",
+                    "href": "/about"
+                  },
+                  "image": "/banner/mfg1.png",
+                  "floating_badge": {
+                    "value": "50+",
+                    "label": "Countries Served"
+                  }
+                },
+                {
+                  "badge_text": "INNOVATION & RESEARCH",
+                  "title_line1": "Pioneering",
+                  "title_line2": "Solutions for",
+                  "title_highlight": "Global",
+                  "title_line3": "Wellness",
+                  "description": "We continuously invest in research and development to bring innovative medical treatments to patients across the globe.",
+                  "primary_button": {
+                    "text": "Our Research →",
+                    "href": "/about"
+                  },
+                  "secondary_button": {
+                    "text": "Contact Us",
+                    "href": "/contact"
+                  },
+                  "image": "/banner/about.png",
+                  "floating_badge": {
+                    "value": "15+",
+                    "label": "Years Experience"
+                  }
+                }
+              ]
+            },
+            "products": {
+              "subtitle": "OUR CORE RANGE",
+              "title_line1": "Wide Range of",
+              "title_highlight": "Pharmaceutical Products",
+              "description": "We offer a comprehensive range of high-quality pharmaceutical products across various therapeutic segments, ensuring access to affordable and effective medications.",
+              "items": [
+                {
+                  "title": "Tablets",
+                  "image": "/services/1.png",
+                  "link": "/products/tablets",
+                  "icon": "Pill"
+                },
+                {
+                  "title": "Capsules",
+                  "image": "/services/2.png",
+                  "link": "/products/capsules",
+                  "icon": "Pill"
+                },
+                {
+                  "title": "Syrups",
+                  "image": "/services/3.png",
+                  "link": "/products/syrups",
+                  "icon": "Droplet"
+                },
+                {
+                  "title": "Injections",
+                  "image": "/services/4.png",
+                  "link": "/products/injections",
+                  "icon": "Syringe"
+                },
+                {
+                  "title": "Ointments & Creams",
+                  "image": "/services/5.png",
+                  "link": "/products/ointments",
+                  "icon": "Activity"
+                },
+                {
+                  "title": "Powders & Granules",
+                  "image": "/services/6.png",
+                  "link": "/products/powders",
+                  "icon": "Activity"
+                },
+                {
+                  "title": "Eye & Ear Drops",
+                  "image": "/services/7.png",
+                  "link": "/products/drops",
+                  "icon": "Eye"
+                },
+                {
+                  "title": "Dietary Supplements",
+                  "image": "/services/8.png",
+                  "link": "/products/supplements",
+                  "icon": "Heart"
+                }
+              ],
+              "button": {
+                "text": "View All Products →",
+                "href": "/products"
+              }
+            },
+            "about": {
+              "subtitle": "ABOUT US",
+              "title_line1": "Medicare",
+              "title_highlight": "Life Sciences",
+              "title_line2": "Committed to a Healthier Tomorrow",
+              "description": "Medicare Life Sciences is a global pharmaceutical company engaged in the manufacturing and supply of high-quality, affordable medicines. We are driven by a singular commitment to improving the quality of human life and providing safe and effective medical products.",
+              "features": [
+                {
+                  "title": "High Quality Products",
+                  "icon": "ShieldCheck"
+                },
+                {
+                  "title": "Patient-Centric Approach",
+                  "icon": "Users"
+                },
+                {
+                  "title": "Innovation Driven",
+                  "icon": "Settings"
+                },
+                {
+                  "title": "Global Healthcare Impact",
+                  "icon": "Handshake"
+                }
+              ],
+              "button": {
+                "text": "Know More →",
+                "href": "/about"
+              },
+              "image": "/banner/about.png",
+              "cards": [
+                {
+                  "title": "Our Mission",
+                  "description": "Better Healthcare for All",
+                  "icon": "Target"
+                },
+                {
+                  "title": "Our Vision",
+                  "description": "To Be a Global Pharma Leader",
+                  "icon": "Eye"
+                },
+                {
+                  "title": "Our Values",
+                  "description": "Quality, Integrity & Patient Care",
+                  "icon": "Users"
+                }
+              ]
+            },
+            "stats": {
+              "items": [
+                {
+                  "value": "15+",
+                  "label": "Years of Experience",
+                  "icon": "FlaskConical"
+                },
+                {
+                  "value": "500+",
+                  "label": "Products Range",
+                  "icon": "Pill"
+                },
+                {
+                  "value": "25+",
+                  "label": "Countries Served",
+                  "icon": "Globe"
+                },
+                {
+                  "value": "1000+",
+                  "label": "Satisfied Customers",
+                  "icon": "Users"
+                }
+              ]
+            },
+            "manufacturing": {
+              "subtitle": "MANUFACTURING",
+              "title_line1": "Advanced Manufacturing",
+              "title_line2": "Facilities for",
+              "title_highlight": "Better Healthcare",
+              "description": "Our state-of-the-art manufacturing facility is equipped with advanced technology and follows strict WHO-GMP guidelines to ensure consistent quality, safety and efficiency in every stage of production.",
+              "features": [
+                {
+                  "title": "Advanced Manufactring Technology",
+                  "description": "Modern equipment for high-quality production.",
+                  "icon": "Settings"
+                },
+                {
+                  "title": "Strict Quality Control",
+                  "description": "Adhering to global safety and quality standards.",
+                  "icon": "ShieldCheck"
+                },
+                {
+                  "title": "Skilled & Experienced Team",
+                  "description": "Professional workforce ensuring precision.",
+                  "icon": "Users"
+                },
+                {
+                  "title": "Safe & Clean Production Environment",
+                  "description": "Maintaining high hygiene and safety standards.",
+                  "icon": "FlaskConical"
+                }
+              ],
+              "button": {
+                "text": "View Facilities",
+                "href": "/manufacturing"
+              },
+              "images": [
+                "/banner/mfg1.png",
+                "/banner/mfg2.png"
+              ]
+            },
+            "certifications": {
+              "subtitle": "TRUSTED QUALITY STANDARDS",
+              "title_line1": "OUR",
+              "title_highlight": "CERTIFICATIONS",
+              "description": "Our certifications reflect our commitment to global quality, safety and excellence in pharmaceutical manufacturing.",
+              "bg_image": "/banner/certificationsbg.png",
+              "items": [
+                {
+                  "image": "/og/1.png",
+                  "alt": "WHO GMP"
+                },
+                {
+                  "image": "/og/2.png",
+                  "alt": "ISO 9001:2015"
+                },
+                {
+                  "image": "/og/3.png",
+                  "alt": "GMP Certified"
+                },
+                {
+                  "image": "/og/4.png",
+                  "alt": "GLP Certified"
+                },
+                {
+                  "image": "/og/5.png",
+                  "alt": "CE Certified"
+                }
+              ]
+            },
+            "testimonials": {
+              "subtitle": "TESTIMONIALS",
+              "title_line1": "What Our",
+              "title_highlight": "Clients Say",
+              "description": "Trusted by healthcare professionals and partners worldwide for our quality products and reliable services.",
+              "reviews": [
+                {
+                  "text": "We are highly satisfied with the product quality, timely delivery, and professional service. Their commitment to quality gives us complete confidence.",
+                  "author": "Sophia Williams",
+                  "role": "Pharmacist & Business Partner",
+                  "image": "/cleint/1.png",
+                  "badge": "Excellent Quality"
+                },
+                {
+                  "text": "Their consistency in product quality and dedication to meeting urgent requirements is remarkable. They ensure a smooth supply chain across our hospital network.",
+                  "author": "Dr. James Carter",
+                  "role": "Chief Medical Officer",
+                  "image": "/cleint/2.png",
+                  "badge": "Trusted Partner"
+                },
+                {
+                  "text": "Working with them is a game-changer. The packaging, efficacy, and regulatory compliance are top-notch, making them our preferred pharmaceutical supplier.",
+                  "author": "Elena Rodriguez",
+                  "role": "Healthcare Distributor",
+                  "image": "/cleint/3.png",
+                  "badge": "Global Standards"
+                },
+                {
+                  "text": "A highly reliable partner. We appreciate their strict adherence to WHO-GMP guidelines. They never compromise on quality and resolve queries quickly.",
+                  "author": "Michael Chen",
+                  "role": "Procurement Manager",
+                  "image": "/cleint/4.png",
+                  "badge": "Reliable Service"
+                }
+              ]
+            },
+            "cta_banner": {
+              "subtitle": "LET'S CONNECT",
+              "title_line1": "Looking for a Trusted",
+              "title_line2": "Pharmaceutical Partner?",
+              "description": "Let's work together to make a difference in global healthcare. Contact us today for contract manufacturing and export opportunities.",
+              "button": {
+                "text": "Enquire Now →",
+                "href": "/contact"
+              },
+              "image": "/banner/cta.png"
+            }
+          }
+        }
+      }
+    }
+  }
+}
