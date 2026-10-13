@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Thermometer, User, CheckCircle, CheckCircle2 } from 'lucide-react';
@@ -134,7 +135,7 @@ export default function ProductDetails({ product }: { product: any }) {
 
                 {/* Button */}
                 <div>
-                  <a href="/enquire-now" className="inline-flex items-center bg-[#0b2c4d] text-white rounded-[100px] transition-all group pl-8 pr-1.5 py-1.5 relative h-[56px] hover:bg-[#08223d] shadow-lg shadow-[#0b2c4d]/20">
+                  <Link href="/enquiry-now" className="inline-flex items-center bg-[#0b2c4d] text-white rounded-[100px] transition-all group pl-8 pr-1.5 py-1.5 relative h-[56px] hover:bg-[#08223d] shadow-lg shadow-[#0b2c4d]/20">
                     {/* Dark gradient overlay to create dual-tone button effect */}
                     <div className="absolute inset-y-0 right-0 w-[80px] bg-gradient-to-l from-[#00a3ba] to-transparent opacity-80 rounded-r-[100px]"></div>
                     
@@ -144,7 +145,7 @@ export default function ProductDetails({ product }: { product: any }) {
                         <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </motion.div>
 

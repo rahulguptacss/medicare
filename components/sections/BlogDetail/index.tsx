@@ -314,7 +314,7 @@ export default function BlogDetail({ blog, recentPosts }: { blog: any, recentPos
                     <p className="text-[#b1c5df] text-[15px] leading-[1.6] mb-8">
                       We are here to help. Get in touch with our team for more information about our products and services.
                     </p>
-                    <Link href="/contact" className="inline-flex items-center gap-2 bg-white text-[#051139] px-6 py-3.5 rounded-full font-bold text-[15px] hover:bg-[#00a3ba] hover:text-white transition-all group">
+                    <Link href="/enquiry-now" className="inline-flex items-center gap-2 bg-white text-[#051139] px-6 py-3.5 rounded-full font-bold text-[15px] hover:bg-[#00a3ba] hover:text-white transition-all group">
                       Enquiry Now
                       <ArrowRight className="w-4 h-4 text-[#00a3ba] group-hover:text-white transition-colors" />
                     </Link>
