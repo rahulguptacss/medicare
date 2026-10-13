@@ -31,7 +31,7 @@ export default function Hero({ data }: any) {
   return (
     <section className="relative min-h-[450px] lg:min-h-[500px] flex items-center overflow-hidden bg-[#07325b] text-white">
       {/* Background Image & Overlays */}
-      <div className="absolute inset-0 bg-[url('/images/hero-bg-pattern.png')] opacity-10 bg-cover bg-center" />
+      <div className="absolute inset-0 bg-[url('/images/hero-bg-pattern.webp')] opacity-10 bg-cover bg-center" />
       <div className="absolute inset-0 bg-gradient-to-r from-[#07325b] via-[#07325b]/90 to-transparent"></div>
       
       {/* Abstract Background Patterns */}
@@ -129,7 +129,7 @@ export default function Hero({ data }: any) {
               {/* Main Image */}
               <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-square">
                 <img 
-                  src={activeData?.image || "/banner/banner.png"} 
+                  src={activeData?.image || "/banner/banner.webp"} 
                   alt="Scientist" 
                   className="w-full h-full object-cover"
                 />

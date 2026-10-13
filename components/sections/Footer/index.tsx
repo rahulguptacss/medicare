@@ -1,72 +1,107 @@
 import React from 'react';
 import { MapPin, Mail, Phone, ChevronRight, Clock } from 'lucide-react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 export default function Footer({ data }: any) {
-  // Hardcoded lists matching the screenshot for perfect alignment
-  const quickLinks = [
+  // All menus and content called directly from data.json with clean fallbacks
+  const quickLinks = data?.quick_links || [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
     { name: "Our Products", href: "/products" },
-    { name: "Manufacturing Facilities", href: "/manufacturing" },
+    { name: "Manufacturing Facilities", href: "/manufacturing-facilities" },
     { name: "Gallery", href: "/gallery" },
     { name: "FAQ", href: "/faq" },
     { name: "Contact Us", href: "/contact" },
-    { name: "Enquiry Now", href: "/enquiry" }
+    { name: "Enquiry Now", href: "/enquiry-now" }
   ];
 
-  const productRange = [
-    { name: "Tablets", href: "/products/tablets" },
-    { name: "Capsules", href: "/products/capsules" },
-    { name: "Syrups", href: "/products/syrups" },
-    { name: "Injections", href: "/products/injections" },
-    { name: "Ointments & Creams", href: "/products/ointments" },
-    { name: "Sachets & Powders", href: "/products/sachets" },
-    { name: "Eye & Ear Drops", href: "/products/drops" },
-    { name: "Respiratory Products", href: "/products/respiratory" }
+  const productRange = data?.product_range || [
+    { name: "Paracetamol Tablets IP 500 mg", href: "/products/paracetamol-tablets-ip-500-mg" },
+    { name: "Omeprazole Capsules 20 mg", href: "/products/omeprazole-capsules-20-mg" },
+    { name: "Ambroxol Hydrochloride Syrup", href: "/products/ambroxol-hydrochloride-syrup" },
+    { name: "Ceftriaxone Injection IP 1g", href: "/products/ceftriaxone-injection-ip-1g" },
+    { name: "Mupirocin Ointment 2% w/w", href: "/products/mupirocin-ointment-2-ww" },
+    { name: "Oral Rehydration Salts (ORS)", href: "/products/oral-rehydration-salts" },
+    { name: "Moxifloxacin Eye Drops", href: "/products/moxifloxacin-eye-drops" },
+    { name: "Salbutamol Inhaler", href: "/products/salbutamol-inhaler" }
   ];
+
+  const quickLinksTitle = data?.quick_links_title || "Quick Links";
+  const productRangeTitle = data?.product_range_title || "Our Product Range";
+  const contactTitle = data?.contact_title || "Contact Information";
+  const galleryTitle = data?.gallery_title || "Our Gallery";
+  const aboutText = data?.description || "We are committed to delivering high quality pharmaceutical products for a healthier and brighter future.";
+  const logoSrc = data?.logo || "/logo/white-logo.webp";
+  const logoAlt = data?.logo_text || "Medicare Life Sciences";
+  const copyrightText = data?.copyright || "Copyright © 2026. All rights reserved. Powered by Lestow";
+  const galleryViewAllText = data?.gallery_view_all_text || "View All Photos";
+  const galleryViewAllLink = data?.gallery_view_all_link || "/gallery";
 
   return (
     <footer className="relative bg-[#021f3a] text-gray-300 pt-12 pb-6 text-sm overflow-hidden border-t border-white/5">
       {/* Background Texture Element */}
       <div className="absolute bottom-0 left-0 opacity-10 pointer-events-none w-full h-full">
-         <img src="/banner/cta.png" className="w-full h-full object-cover" alt="" />
-         <div className="absolute inset-0 bg-[#021f3a]/90"></div>
+        <img src="/banner/cta.webp" className="w-full h-full object-cover" alt="" />
+        <div className="absolute inset-0 bg-[#021f3a]/90"></div>
       </div>
 
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-10 lg:gap-y-0 mb-10">
-          
+
           {/* Column 1: Logo & About */}
           <div className="lg:col-span-3 lg:pr-8 xl:pr-10 lg:border-r border-white/10">
-            <img src="/logo/white-logo.png" alt="Medicare Life Sciences" className="h-16 sm:h-20 mb-4 object-contain" />
+            <img src={logoSrc} alt={logoAlt} className="h-16 sm:h-20 mb-4 object-contain" />
             <p className="text-[#a8b8c8] text-[11px] leading-relaxed mb-5 pr-4">
-              We are committed to delivering high quality pharmaceutical products for a healthier and brighter future.
+              {aboutText}
             </p>
             <div className="flex gap-2">
-              <a href="#" className="w-7 h-7 rounded-full bg-[#3b5998] flex items-center justify-center text-white transition-transform hover:-translate-y-1 shadow-lg">
-                <FaFacebookF className="w-3.5 h-3.5" />
-              </a>
-              <a href="#" className="w-7 h-7 rounded-full bg-[#007bb5] flex items-center justify-center text-white transition-transform hover:-translate-y-1 shadow-lg">
-                <FaLinkedinIn className="w-3.5 h-3.5" />
-              </a>
-              <a href="#" className="w-7 h-7 rounded-full bg-[#1da1f2] flex items-center justify-center text-white transition-transform hover:-translate-y-1 shadow-lg">
-                <FaTwitter className="w-3.5 h-3.5" />
-              </a>
-              <a href="#" className="w-7 h-7 rounded-full bg-[#ff0000] flex items-center justify-center text-white transition-transform hover:-translate-y-1 shadow-lg">
-                <FaYoutube className="w-3.5 h-3.5" />
-              </a>
+              {(data?.socials || [
+                { icon: "Facebook", href: "https://www.facebook.com/" },
+                { icon: "Linkedin", href: "https://www.linkedin.com/" },
+                { icon: "Twitter", href: "https://x.com/" },
+                { icon: "Instagram", href: "https://www.instagram.com/" },
+                { icon: "Youtube", href: "https://www.youtube.com/" }
+              ]).map((social: any, idx: number) => {
+                const getSocialBg = (icon: string) => {
+                  switch (icon?.toLowerCase()) {
+                    case 'facebook': return 'bg-[#3b5998]';
+                    case 'linkedin': return 'bg-[#007bb5]';
+                    case 'twitter':
+                    case 'x': return 'bg-black hover:bg-neutral-800';
+                    case 'instagram': return 'bg-[#e1306c]';
+                    case 'youtube': return 'bg-[#ff0000]';
+                    default: return 'bg-[#00a2c0]';
+                  }
+                };
+                return (
+                  <a
+                    key={idx}
+                    href={social.href || '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.icon}
+                    className={`w-7 h-7 rounded-full ${getSocialBg(social.icon)} flex items-center justify-center text-white transition-transform hover:-translate-y-1 shadow-lg`}
+                  >
+                    {social.icon?.toLowerCase() === 'facebook' && <FaFacebookF className="w-3.5 h-3.5" />}
+                    {social.icon?.toLowerCase() === 'linkedin' && <FaLinkedinIn className="w-3.5 h-3.5" />}
+                    {(social.icon?.toLowerCase() === 'twitter' || social.icon?.toLowerCase() === 'x') && <FaXTwitter className="w-3.5 h-3.5" />}
+                    {social.icon?.toLowerCase() === 'instagram' && <FaInstagram className="w-3.5 h-3.5" />}
+                    {social.icon?.toLowerCase() === 'youtube' && <FaYoutube className="w-3.5 h-3.5" />}
+                  </a>
+                );
+              })}
             </div>
           </div>
 
           {/* Column 2: Quick Links */}
           <div className="lg:col-span-2 lg:px-4 xl:px-5 lg:border-r border-white/10">
             <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
-              Quick Links
+              {quickLinksTitle}
               <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
             </h4>
             <ul className="space-y-1.5">
-              {quickLinks.map((link, idx) => (
+              {quickLinks.map((link: any, idx: number) => (
                 <li key={idx}>
                   <a href={link.href} className="text-[#a8b8c8] hover:text-[#00a2c0] transition-colors flex items-center gap-2 text-[11px]">
                     <ChevronRight className="w-3 h-3 text-[#00a2c0]" strokeWidth={3} />
@@ -80,15 +115,15 @@ export default function Footer({ data }: any) {
           {/* Column 3: Product Range */}
           <div className="lg:col-span-2 lg:px-4 xl:px-5 lg:border-r border-white/10">
             <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
-              Our Product Range
+              {productRangeTitle}
               <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
             </h4>
             <ul className="space-y-1.5">
-              {productRange.map((link, idx) => (
+              {productRange.map((link: any, idx: number) => (
                 <li key={idx}>
-                  <a href={link.href} className="text-[#a8b8c8] hover:text-[#00a2c0] transition-colors flex items-center gap-2 text-[11px]">
-                    <ChevronRight className="w-3 h-3 text-[#00a2c0]" strokeWidth={3} />
-                    {link.name}
+                  <a href={link.href} className="text-[#a8b8c8] hover:text-[#00a2c0] transition-colors flex items-center gap-2 text-[11px] leading-snug">
+                    <ChevronRight className="w-3 h-3 text-[#00a2c0] shrink-0" strokeWidth={3} />
+                    <span className="truncate block" title={link.name}>{link.name}</span>
                   </a>
                 </li>
               ))}
@@ -98,7 +133,7 @@ export default function Footer({ data }: any) {
           {/* Column 4: Contact Info */}
           <div className="lg:col-span-3 lg:px-8 xl:px-10 lg:border-r border-white/10">
             <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
-              Contact Information
+              {contactTitle}
               <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
             </h4>
             <ul className="space-y-2.5">
@@ -108,7 +143,13 @@ export default function Footer({ data }: any) {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h5 className="text-white font-semibold text-[12px] mb-0.5">Our Address</h5>
-                  <p className="text-[#a8b8c8] text-[11px] leading-relaxed">123 Pharma City, Industrial Area,<br/>New Delhi - 110001, India</p>
+                  <p className="text-[#a8b8c8] text-[11px] leading-relaxed">
+                    {data?.contact?.address ? data.contact.address.split('\n').map((line: string, i: number) => (
+                      <React.Fragment key={i}>{line}{i === 0 && <br />}</React.Fragment>
+                    )) : (
+                      <>123 Education Lane,<br />New York, NY 10001</>
+                    )}
+                  </p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -117,7 +158,9 @@ export default function Footer({ data }: any) {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h5 className="text-white font-semibold text-[12px] mb-0.5">Call Us</h5>
-                  <p className="text-[#a8b8c8] text-[11px] leading-relaxed">+91 98765 43210<br/>+91 11 2345 6789</p>
+                  <a href={`tel:${data?.contact?.phone || '+100000000000'}`} className="text-[#a8b8c8] hover:text-[#00a2c0] transition-colors text-[11px] leading-relaxed block">
+                    {data?.contact?.phone || '+100000000000'}
+                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -126,7 +169,9 @@ export default function Footer({ data }: any) {
                 </div>
                 <div className="min-w-0 flex-1">
                   <h5 className="text-white font-semibold text-[12px] mb-0.5">Email Us</h5>
-                  <p className="text-[#a8b8c8] text-[11px] leading-relaxed break-words">info@medicarelifesciences.com</p>
+                  <a href={`mailto:${data?.contact?.email || 'info@xyz.com'}`} className="text-[#a8b8c8] hover:text-[#00a2c0] transition-colors text-[11px] leading-relaxed break-words block">
+                    {data?.contact?.email || 'info@xyz.com'}
+                  </a>
                 </div>
               </li>
 
@@ -136,21 +181,21 @@ export default function Footer({ data }: any) {
           {/* Column 5: Gallery */}
           <div className="lg:col-span-2 lg:pl-8 xl:pl-10">
             <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
-              Our Gallery
+              {galleryTitle}
               <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
             </h4>
             <div className="grid grid-cols-2 gap-2 mb-4">
               {(data?.gallery?.length > 0 ? data.gallery.slice(0, 4) : [
-                { image: "/services/1.png", alt: "Gallery 1" },
-                { image: "/services/2.png", alt: "Gallery 2" },
-                { image: "/services/3.png", alt: "Gallery 3" },
-                { image: "/services/4.png", alt: "Gallery 4" }
+                { image: "/expertise/1.webp", alt: "Manufacturing" },
+                { image: "/expertise/2.webp", alt: "Research" },
+                { image: "/expertise/3.webp", alt: "Quality Testing" },
+                { image: "/expertise/4.webp", alt: "Distribution" }
               ]).map((g: any, idx: number) => (
                 <img key={idx} src={g.image} className="w-full h-12 sm:h-14 object-cover rounded-md border border-white/20 hover:opacity-80 transition-opacity cursor-pointer" alt={g.alt || `Gallery ${idx + 1}`} />
               ))}
             </div>
-            <a href="/gallery" className="text-[#00a2c0] hover:text-white transition-colors text-[11px] font-semibold flex items-center gap-1.5 inline-flex">
-              View All Photos <ChevronRight className="w-3 h-3" strokeWidth={2.5} />
+            <a href={galleryViewAllLink} className="text-[#00a2c0] hover:text-white transition-colors text-[11px] font-semibold flex items-center gap-1.5 inline-flex">
+              {galleryViewAllText} <ChevronRight className="w-3 h-3" strokeWidth={2.5} />
             </a>
           </div>
 
@@ -158,7 +203,7 @@ export default function Footer({ data }: any) {
 
         {/* Copyright */}
         <div className="pt-4 border-t border-[#00a2c0] flex flex-col items-center justify-center gap-4 text-[#a8b8c8] text-[11px] text-center w-full">
-          <p>Copyright © 2026. All rights reserved. Powered by Lestow</p>
+          <p>{copyrightText}</p>
         </div>
       </div>
     </footer>

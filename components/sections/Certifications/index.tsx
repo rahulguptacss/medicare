@@ -7,7 +7,7 @@ export default function Certifications({ data }: any) {
   return (
     <section 
       className="py-10 lg:py-16 relative overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url('${data?.bg_image || "/banner/certificationsbg.png"}')` }}
+      style={{ backgroundImage: `url('${data?.bg_image || "/banner/certificationsbg.webp"}')` }}
     >
 
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -59,7 +59,7 @@ export default function Certifications({ data }: any) {
               className="bg-white p-2.5 sm:p-3 lg:p-4 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] flex items-center justify-center w-[calc(33.33%-0.5rem)] min-w-[90px] max-w-[110px] sm:max-w-none sm:w-[130px] lg:w-[160px] aspect-square hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_12px_40px_rgb(0,162,192,0.15)] transition-all duration-300"
             >
               <img 
-                src={item.image || `/og/${idx + 1}.png`} 
+                src={item.image || `/og/${idx + 1}.webp`} 
                 alt={item.alt || "Certification Logo"} 
                 className="max-w-[90%] max-h-[90%] object-contain" 
               />

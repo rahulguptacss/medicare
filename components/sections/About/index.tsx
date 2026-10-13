@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 import { ShieldCheck, Users, Settings, Handshake, Target, Eye, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -15,7 +16,7 @@ interface Card {
   icon?: string;
 }
 
-interface AboutData {
+export interface AboutData {
   subtitle?: string;
   title_line1?: string;
   title_highlight?: string;
@@ -30,7 +31,12 @@ interface AboutData {
   cards?: Card[];
 }
 
-export default function About({ data }: { data: AboutData }) {
+export interface AboutProps {
+  data: AboutData;
+  hideButton?: boolean;
+}
+
+export default function About({ data, hideButton = false }: AboutProps) {
   const getFeatureIcon = (idx: number) => {
     switch (idx) {
       case 0: return <ShieldCheck className="w-7 h-7 lg:w-[30px] lg:h-[30px]" strokeWidth={2} />;
@@ -114,17 +120,20 @@ export default function About({ data }: { data: AboutData }) {
             ))}
           </div>
 
-          {/* Know More Button */}
-          <a 
-            href={data?.button?.href || "#"} 
-            className="inline-flex items-center gap-3 bg-[#00b4d8] hover:bg-[#009bc2] text-white pl-6 pr-1.5 py-1.5 rounded-full font-bold shadow-lg shadow-[#00b4d8]/30 transition-all group"
-          >
-            <span className="text-sm">{data?.button?.text || "Know More"}</span>
-            <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#00b4d8] group-hover:translate-x-1 transition-transform">
-              <ArrowRight className="w-4 h-4" />
-            </div>
-          </a>
+          {/* Know More Button (only rendered when hideButton is false) */}
+          {!hideButton && data?.button && (
+            <Link 
+              href={data.button.href || "/about"} 
+              className="inline-flex items-center gap-3 bg-[#00b4d8] hover:bg-[#009bc2] text-white pl-6 pr-1.5 py-1.5 rounded-full font-bold shadow-lg shadow-[#00b4d8]/30 transition-all group"
+            >
+              <span className="text-sm">{data.button.text || "Know More"}</span>
+              <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#00b4d8] group-hover:translate-x-1 transition-transform">
+                <ArrowRight className="w-4 h-4" />
+              </div>
+            </Link>
+          )}
         </motion.div>
+
 
         {/* Right Column Image & Cards */}
         <motion.div 

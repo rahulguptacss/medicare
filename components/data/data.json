@@ -4,35 +4,39 @@
       "socials": [
         {
           "icon": "Facebook",
-          "href": "#"
+          "href": "https://www.facebook.com/"
         },
         {
           "icon": "Twitter",
-          "href": "#"
+          "href": "https://x.com/"
         },
         {
           "icon": "Linkedin",
-          "href": "#"
+          "href": "https://www.linkedin.com/"
         },
         {
           "icon": "Instagram",
-          "href": "#"
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/"
         }
       ],
       "contact_info": [
         {
           "icon": "Phone",
-          "title": "+91 98765 43210",
+          "title": "+100000000000",
           "subtitle": "Mon - Sat: 9:00 AM - 6:00 PM"
         },
         {
           "icon": "MapPin",
-          "title": "Plot No. 123, Pharma City,",
-          "subtitle": "Baddi, Himachal Pradesh - 173205"
+          "title": "123 Education Lane,",
+          "subtitle": "New York, NY 10001"
         },
         {
           "icon": "Mail",
-          "title": "info@medicarelifesciences.com",
+          "title": "info@xyz.com",
           "subtitle": "We Reply Within 24 Hours"
         }
       ]
@@ -55,7 +59,7 @@
         },
         {
           "name": "Manufacturing Facilities",
-          "href": "/manufacturing"
+          "href": "/manufacturing-facilities"
         },
         {
           "name": "Blogs",
@@ -79,30 +83,36 @@
         }
       ],
       "button_text": "Enquiry Now",
-      "button_link": "/enquire-now",
-      "logo": "/logo/logo.png"
+      "button_link": "/enquiry-now",
+      "logo": "/logo/logo.webp"
     },
     "Footer": {
+      "logo": "/logo/white-logo.webp",
       "logo_text": "Medicare Life Sciences",
-      "description": "Medicare delivers high-quality pharmaceutical products and innovative medical solutions to enhance global healthcare. Connecting people to a healthier tomorrow.",
+      "description": "We are committed to delivering high quality pharmaceutical products for a healthier and brighter future.",
       "socials": [
         {
           "icon": "Facebook",
-          "href": "#"
+          "href": "https://www.facebook.com/"
         },
         {
-          "icon": "Instagram",
-          "href": "#"
+          "icon": "Twitter",
+          "href": "https://x.com/"
         },
         {
           "icon": "Linkedin",
-          "href": "#"
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com/"
         },
         {
           "icon": "Youtube",
-          "href": "#"
+          "href": "https://www.youtube.com/"
         }
       ],
+      "quick_links_title": "Quick Links",
       "quick_links": [
         {
           "name": "Home",
@@ -113,56 +123,93 @@
           "href": "/about"
         },
         {
-          "name": "Broadband Plans",
+          "name": "Our Products",
           "href": "/products"
         },
         {
-          "name": "Our Facilities",
-          "href": "/manufacturing"
+          "name": "Manufacturing Facilities",
+          "href": "/manufacturing-facilities"
+        },
+        {
+          "name": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "name": "FAQ",
+          "href": "/faq"
         },
         {
           "name": "Contact Us",
           "href": "/contact"
+        },
+        {
+          "name": "Enquiry Now",
+          "href": "/enquiry-now"
         }
       ],
-      "our_services": [
+      "product_range_title": "Our Product Range",
+      "product_range": [
         {
-          "name": "Home Broadband",
-          "href": "/products/tablets"
+          "name": "Paracetamol Tablets IP 500 mg",
+          "href": "/products/paracetamol-tablets-ip-500-mg"
         },
         {
-          "name": "Business Internet",
-          "href": "/products/capsules"
+          "name": "Omeprazole Capsules 20 mg",
+          "href": "/products/omeprazole-capsules-20-mg"
         },
         {
-          "name": "Wi-Fi Solutions",
-          "href": "/products/syrups"
+          "name": "Ambroxol Hydrochloride Syrup",
+          "href": "/products/ambroxol-hydrochloride-syrup"
         },
         {
-          "name": "Dedicated Internet",
-          "href": "/products/injections"
+          "name": "Ceftriaxone Injection IP 1g",
+          "href": "/products/ceftriaxone-injection-ip-1g"
+        },
+        {
+          "name": "Mupirocin Ointment 2% w/w",
+          "href": "/products/mupirocin-ointment-2-ww"
+        },
+        {
+          "name": "Oral Rehydration Salts (ORS)",
+          "href": "/products/oral-rehydration-salts"
+        },
+        {
+          "name": "Moxifloxacin Eye Drops",
+          "href": "/products/moxifloxacin-eye-drops"
+        },
+        {
+          "name": "Salbutamol Inhaler",
+          "href": "/products/salbutamol-inhaler"
         }
       ],
+      "contact_title": "Contact Information",
       "contact": {
-        "address": "123 Network Street,\nNew Delhi, India 110001",
-        "phone": "+91 98765 43210",
-        "email": "support@medicare.com"
+        "address": "123 Education Lane,\nNew York, NY 10001",
+        "phone": "+100000000000",
+        "email": "info@xyz.com"
       },
+      "gallery_title": "Our Gallery",
       "gallery": [
         {
-          "image": "/og/1.png",
-          "alt": "G1"
+          "image": "/expertise/1.webp",
+          "alt": "Manufacturing"
         },
         {
-          "image": "/og/2.png",
-          "alt": "G2"
+          "image": "/expertise/2.webp",
+          "alt": "Research"
         },
         {
-          "image": "/og/3.png",
-          "alt": "G3"
+          "image": "/expertise/3.webp",
+          "alt": "Quality Testing"
+        },
+        {
+          "image": "/expertise/4.webp",
+          "alt": "Distribution"
         }
       ],
-      "copyright": "© 2026 Medicare Life Sciences. All Rights Reserved."
+      "gallery_view_all_text": "View All Photos",
+      "gallery_view_all_link": "/gallery",
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
     }
   },
   "categories": {
@@ -210,6 +257,442 @@
                   "component": "CtaBanner"
                 }
               ]
+            },
+            "about": {
+              "title": "About Us",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "About Us - Medicare Life Sciences"
+              },
+              "breadcrumb": {
+                "title": "About Us",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About Us"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "StatsSection",
+                  "component": "Stats"
+                },
+                {
+                  "key": "MissionVisionSection",
+                  "component": "MissionVision"
+                },
+                {
+                  "key": "ExpertiseSection",
+                  "component": "Expertise"
+                },
+                {
+                  "key": "WhyChooseUsSection",
+                  "component": "WhyChooseUs"
+                },
+                {
+                  "key": "InfrastructureSection",
+                  "component": "Infrastructure"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "products": {
+              "title": "Our Products",
+              "pageName": "Products",
+              "metadata": {
+                "title": "Our Products - Medicare Life Sciences",
+                "description": "We offer a comprehensive range of high-quality pharmaceutical products that cater to diverse healthcare needs, manufactured under strict quality standards."
+              },
+              "breadcrumb": {
+                "title": "Our Products",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Our Products"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ProductsSection",
+                  "component": "Products"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "product_details": {
+              "title": "Product Details",
+              "pageName": "Product Details",
+              "metadata": {
+                "title": "Product Details - Medicare Life Sciences"
+              },
+              "breadcrumb": {
+                "title": "Product Details",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Our Products",
+                    "href": "/products"
+                  },
+                  {
+                    "label": "Product Details"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ProductDetailsSection",
+                  "component": "ProductDetails"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "blogs": {
+              "title": "Our Blogs",
+              "pageName": "Blogs",
+              "metadata": {
+                "title": "Our Blogs - Medicare Life Sciences"
+              },
+              "breadcrumb": {
+                "title": "Our Blogs",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Our Blogs"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogsSection",
+                  "component": "Blogs"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "blog_details": {
+              "title": "Blog Details",
+              "pageName": "Blog Details",
+              "metadata": {
+                "title": "Blog Details - Medicare Life Sciences"
+              },
+              "breadcrumb": {
+                "title": "Blog Details",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Our Blogs",
+                    "href": "/blogs"
+                  },
+                  {
+                    "label": "Blog Details"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogDetailSection",
+                  "component": "BlogDetail"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "team": {
+              "title": "Our Teams",
+              "pageName": "Team",
+              "metadata": {
+                "title": "Our Team - Medicare Life Sciences"
+              },
+              "breadcrumb": {
+                "title": "Our Teams",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Our Teams"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "TeamSection",
+                  "component": "Team"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "gallery": {
+              "title": "Our Gallery",
+              "pageName": "Gallery",
+              "metadata": {
+                "title": "Our Gallery - Medicare Life Sciences",
+                "description": "Take a look at our state-of-the-art manufacturing facilities, advanced technology, quality control processes and team in action."
+              },
+              "breadcrumb": {
+                "title": "Our Gallery",
+                "image": "/banner/banner.webp",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Our Gallery"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "GallerySection",
+                  "component": "Gallery"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "faq": {
+              "title": "Faqs",
+              "pageName": "FAQ",
+              "metadata": {
+                "title": "Frequently Asked Questions - Medicare Life Sciences",
+                "description": "Find answers to frequently asked questions about our pharmaceutical products, manufacturing facilities, certifications, and third-party manufacturing."
+              },
+              "breadcrumb": {
+                "title": "Faqs",
+                "image": "/banner/banner.webp",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Faqs"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "FaqSection",
+                  "component": "Faq"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Contact Us - Medicare Life Sciences",
+                "description": "Get in touch with Medicare Life Sciences for your manufacturing requirements, product enquiries, and business collaborations."
+              },
+              "breadcrumb": {
+                "title": "Contact Us",
+                "image": "/banner/banner.webp",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Contact Us"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "enquiry": {
+              "title": "Enquiry Now",
+              "pageName": "Enquiry Now",
+              "metadata": {
+                "title": "Enquiry Now - Medicare Life Sciences",
+                "description": "Share your enquiry with Medicare Life Sciences for contract manufacturing, product requirements, and business collaborations."
+              },
+              "breadcrumb": {
+                "title": "Enquiry Now",
+                "image": "/banner/banner.webp",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Enquiry Now"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquirySection",
+                  "component": "Enquiry"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "manufacturing_facilities": {
+              "title": "Manufacturing Facilities",
+              "pageName": "Manufacturing Facilities",
+              "metadata": {
+                "title": "Manufacturing Facilities - Medicare Life Sciences",
+                "description": "Explore our state-of-the-art WHO-GMP certified manufacturing facilities, modern infrastructure, advanced machinery, and diverse production capabilities."
+              },
+              "breadcrumb": {
+                "title": "Manufacturing Facilities",
+                "image": "/banner/banner.webp",
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Manufacturing Facilities"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ManufacturingOverviewSection",
+                  "component": "ManufacturingOverview"
+                },
+                {
+                  "key": "ManufacturingInfrastructureSection",
+                  "component": "ManufacturingInfrastructure"
+                },
+                {
+                  "key": "ManufacturingMachinerySection",
+                  "component": "ManufacturingMachinery"
+                },
+                {
+                  "key": "ManufacturingCapabilitiesSection",
+                  "component": "ManufacturingCapabilities"
+                },
+                {
+                  "key": "ManufacturingProcessSection",
+                  "component": "ManufacturingProcess"
+                },
+                {
+                  "key": "ManufacturingHygieneSafetySection",
+                  "component": "ManufacturingHygieneSafety"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner"
+                }
+              ]
+            },
+            "not_found": {
+              "title": "404 - Page Not Found",
+              "pageName": "404",
+              "metadata": {
+                "title": "404 - Page Not Found - Medicare Life Sciences",
+                "description": "The page you are looking for might have been removed or does not exist."
+              },
+              "components": [
+                {
+                  "key": "NotFoundSection",
+                  "component": "NotFound"
+                }
+              ]
             }
           },
           "sections": {
@@ -230,7 +713,7 @@
                     "text": "Watch Video",
                     "href": "#"
                   },
-                  "image": "/banner/banner.png",
+                  "image": "/banner/banner.webp",
                   "floating_badge": {
                     "value": "700+",
                     "label": "Laboratory Experts"
@@ -251,7 +734,7 @@
                     "text": "Learn More",
                     "href": "/about"
                   },
-                  "image": "/banner/mfg1.png",
+                  "image": "/banner/mfg1.webp",
                   "floating_badge": {
                     "value": "50+",
                     "label": "Countries Served"
@@ -272,7 +755,7 @@
                     "text": "Contact Us",
                     "href": "/contact"
                   },
-                  "image": "/banner/about.png",
+                  "image": "/banner/about.webp",
                   "floating_badge": {
                     "value": "15+",
                     "label": "Years Experience"
@@ -285,59 +768,1168 @@
               "title_line1": "Wide Range of",
               "title_highlight": "Pharmaceutical Products",
               "description": "We offer a comprehensive range of high-quality pharmaceutical products across various therapeutic segments, ensuring access to affordable and effective medications.",
+              "header_section": {
+                "subtitle": "OUR PRODUCTS",
+                "title": "Our",
+                "title_highlight": "Pharmaceutical",
+                "title_end": "Products",
+                "description": "We offer a comprehensive range of high-quality pharmaceutical products that cater to diverse healthcare needs, manufactured under strict quality standards. Our products are formulated to ensure safety, efficacy and better health outcomes for people across all age groups.",
+                "image": "/banner/mfg2.webp"
+              },
+              "items_per_page": 9,
+              "pagination": {
+                "prev_text": "Previous",
+                "next_text": "Next"
+              },
+              "product_items": [
+                {
+                  "title": "Paracetamol Tablets IP 500 mg",
+                  "icon": "Pill",
+                  "image": "/services/1.webp",
+                  "link": "/products/paracetamol-tablets-ip-500-mg"
+                },
+                {
+                  "title": "Omeprazole Capsules 20 mg",
+                  "icon": "Pill",
+                  "image": "/services/2.webp",
+                  "link": "/products/omeprazole-capsules-20-mg"
+                },
+                {
+                  "title": "Ambroxol Hydrochloride Syrup",
+                  "icon": "Droplet",
+                  "image": "/services/3.webp",
+                  "link": "/products/ambroxol-hydrochloride-syrup"
+                },
+                {
+                  "title": "Ceftriaxone Injection IP 1g",
+                  "icon": "Syringe",
+                  "image": "/services/4.webp",
+                  "link": "/products/ceftriaxone-injection-ip-1g"
+                },
+                {
+                  "title": "Mupirocin Ointment 2% w/w",
+                  "icon": "Activity",
+                  "image": "/services/1.webp",
+                  "link": "/products/mupirocin-ointment-2-ww"
+                },
+                {
+                  "title": "Oral Rehydration Salts (ORS)",
+                  "icon": "Activity",
+                  "image": "/services/2.webp",
+                  "link": "/products/oral-rehydration-salts"
+                },
+                {
+                  "title": "Moxifloxacin Eye Drops",
+                  "icon": "Eye",
+                  "image": "/services/3.webp",
+                  "link": "/products/moxifloxacin-eye-drops"
+                },
+                {
+                  "title": "Salbutamol Inhaler",
+                  "icon": "Activity",
+                  "image": "/services/4.webp",
+                  "link": "/products/salbutamol-inhaler"
+                },
+                {
+                  "title": "Vitamin D3 Tablets",
+                  "icon": "Pill",
+                  "image": "/services/1.webp",
+                  "link": "/products/vitamin-d3-tablets"
+                },
+                {
+                  "title": "Amoxicillin Capsules IP 500 mg",
+                  "icon": "Pill",
+                  "image": "/services/2.webp",
+                  "link": "/products/amoxicillin-capsules-ip-500-mg"
+                },
+                {
+                  "title": "Cetirizine Syrup",
+                  "icon": "Droplet",
+                  "image": "/services/3.webp",
+                  "link": "/products/cetirizine-syrup"
+                },
+                {
+                  "title": "Insulin Injection",
+                  "icon": "Syringe",
+                  "image": "/services/4.webp",
+                  "link": "/products/insulin-injection"
+                }
+              ],
               "items": [
                 {
                   "title": "Tablets",
-                  "image": "/services/1.png",
-                  "link": "/products/tablets",
+                  "image": "/services/1.webp",
+                  "link": "/products/paracetamol-tablets-ip-500-mg",
                   "icon": "Pill"
                 },
                 {
                   "title": "Capsules",
-                  "image": "/services/2.png",
-                  "link": "/products/capsules",
+                  "image": "/services/2.webp",
+                  "link": "/products/omeprazole-capsules-20-mg",
                   "icon": "Pill"
                 },
                 {
                   "title": "Syrups",
-                  "image": "/services/3.png",
-                  "link": "/products/syrups",
+                  "image": "/services/3.webp",
+                  "link": "/products/ambroxol-hydrochloride-syrup",
                   "icon": "Droplet"
                 },
                 {
                   "title": "Injections",
-                  "image": "/services/4.png",
-                  "link": "/products/injections",
+                  "image": "/services/4.webp",
+                  "link": "/products/ceftriaxone-injection-ip-1g",
                   "icon": "Syringe"
                 },
                 {
                   "title": "Ointments & Creams",
-                  "image": "/services/5.png",
-                  "link": "/products/ointments",
+                  "image": "/services/5.webp",
+                  "link": "/products/mupirocin-ointment-2-ww",
                   "icon": "Activity"
                 },
                 {
                   "title": "Powders & Granules",
-                  "image": "/services/6.png",
-                  "link": "/products/powders",
+                  "image": "/services/6.webp",
+                  "link": "/products/oral-rehydration-salts",
                   "icon": "Activity"
                 },
                 {
                   "title": "Eye & Ear Drops",
-                  "image": "/services/7.png",
-                  "link": "/products/drops",
+                  "image": "/services/7.webp",
+                  "link": "/products/moxifloxacin-eye-drops",
                   "icon": "Eye"
                 },
                 {
                   "title": "Dietary Supplements",
-                  "image": "/services/8.png",
-                  "link": "/products/supplements",
+                  "image": "/services/8.webp",
+                  "link": "/products/vitamin-d3-tablets",
                   "icon": "Heart"
                 }
               ],
               "button": {
                 "text": "View All Products →",
                 "href": "/products"
+              }
+            },
+            "productDetails": {
+              "paracetamol-tablets-ip-500-mg": {
+                "badge": "Tablets",
+                "title": "Paracetamol Tablets IP 500 mg",
+                "titleHighlight": "500 mg",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "omeprazole-capsules-20-mg": {
+                "badge": "Capsules",
+                "title": "Omeprazole Capsules 20 mg",
+                "titleHighlight": "20 mg",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "ambroxol-hydrochloride-syrup": {
+                "badge": "Syrup",
+                "title": "Ambroxol Hydrochloride Syrup",
+                "titleHighlight": "Syrup",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "ceftriaxone-injection-ip-1g": {
+                "badge": "Injections",
+                "title": "Ceftriaxone Injection IP 1g",
+                "titleHighlight": "1g",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "mupirocin-ointment-2-ww": {
+                "badge": "Ointment",
+                "title": "Mupirocin Ointment 2% w/w",
+                "titleHighlight": "2% w/w",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "oral-rehydration-salts": {
+                "badge": "Powder",
+                "title": "Oral Rehydration Salts (ORS)",
+                "titleHighlight": "(ORS)",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "moxifloxacin-eye-drops": {
+                "badge": "Drops",
+                "title": "Moxifloxacin Eye Drops",
+                "titleHighlight": "Eye Drops",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "salbutamol-inhaler": {
+                "badge": "Inhaler",
+                "title": "Salbutamol Inhaler",
+                "titleHighlight": "Inhaler",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "vitamin-d3-tablets": {
+                "badge": "Tablets",
+                "title": "Vitamin D3 Tablets",
+                "titleHighlight": "Tablets",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "amoxicillin-capsules-ip-500-mg": {
+                "badge": "Capsules",
+                "title": "Amoxicillin Capsules IP 500 mg",
+                "titleHighlight": "500 mg",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "cetirizine-syrup": {
+                "badge": "Syrup",
+                "title": "Cetirizine Syrup",
+                "titleHighlight": "Syrup",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
+              },
+              "insulin-injection": {
+                "badge": "Injections",
+                "title": "Insulin Injection",
+                "titleHighlight": "Injection",
+                "subtitle": "Analgesic | Antipyretic",
+                "description": "Paracetamol Tablets IP 500 mg is a widely used analgesic and antipyretic indicated for the relief of mild to moderate pain and for the reduction of fever. It provides fast and effective relief with a well-established safety profile.",
+                "images": [
+                  "/services/1.webp",
+                  "/services/2.webp",
+                  "/services/3.webp",
+                  "/services/4.webp",
+                  "/services/5.webp"
+                ],
+                "features": [
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "Effective Pain Relief"
+                  },
+                  {
+                    "icon": "Thermometer",
+                    "title": "Reduces Fever"
+                  },
+                  {
+                    "icon": "User",
+                    "title": "Well Tolerated"
+                  },
+                  {
+                    "icon": "CheckCircle",
+                    "title": "Trusted Quality"
+                  }
+                ],
+                "overview": {
+                  "text": "Paracetamol is a commonly used analgesic and antipyretic medication. It is effective in relieving mild to moderate pain such as headache, toothache, muscle pain, backache, and also helps in reducing fever.",
+                  "image": "/services/1.webp"
+                },
+                "composition": [
+                  {
+                    "name": "Paracetamol IP",
+                    "amount": "500 mg"
+                  }
+                ],
+                "strengthDosage": {
+                  "strength": "500 mg",
+                  "dosageForm": "Tablet (Uncoated)"
+                },
+                "keyFeatures": [
+                  "Provides effective relief from mild to moderate pain",
+                  "Helps in reducing fever",
+                  "Well-tolerated and safe when used as directed",
+                  "Suitable for adults and children (as per medical advice)",
+                  "High-quality manufacturing with strict quality control"
+                ],
+                "specifications": [
+                  {
+                    "parameter": "Appearance",
+                    "specification": "White, round/oblong uncoated tablet"
+                  },
+                  {
+                    "parameter": "Average Weight",
+                    "specification": "Approx. 650 mg"
+                  },
+                  {
+                    "parameter": "Disintegration Time",
+                    "specification": "Within 15 minutes"
+                  },
+                  {
+                    "parameter": "Assay",
+                    "specification": "Not less than 95% and not more than 105%"
+                  }
+                ],
+                "packaging": [
+                  {
+                    "packSize": "10 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "20 x 10 Tablets",
+                    "type": "Alu-Alu / Blister Pack"
+                  },
+                  {
+                    "packSize": "1000 Tablets",
+                    "type": "HDPE Bottle / Bulk Pack"
+                  }
+                ]
               }
             },
             "about": {
@@ -368,7 +1960,7 @@
                 "text": "Know More →",
                 "href": "/about"
               },
-              "image": "/banner/about.png",
+              "image": "/banner/about.webp",
               "cards": [
                 {
                   "title": "Our Mission",
@@ -444,8 +2036,8 @@
                 "href": "/manufacturing"
               },
               "images": [
-                "/banner/mfg1.png",
-                "/banner/mfg2.png"
+                "/banner/mfg1.webp",
+                "/banner/mfg2.webp"
               ]
             },
             "certifications": {
@@ -453,26 +2045,26 @@
               "title_line1": "OUR",
               "title_highlight": "CERTIFICATIONS",
               "description": "Our certifications reflect our commitment to global quality, safety and excellence in pharmaceutical manufacturing.",
-              "bg_image": "/banner/certificationsbg.png",
+              "bg_image": "/banner/certificationsbg.webp",
               "items": [
                 {
-                  "image": "/og/1.png",
+                  "image": "/og/1.webp",
                   "alt": "WHO GMP"
                 },
                 {
-                  "image": "/og/2.png",
+                  "image": "/og/2.webp",
                   "alt": "ISO 9001:2015"
                 },
                 {
-                  "image": "/og/3.png",
+                  "image": "/og/3.webp",
                   "alt": "GMP Certified"
                 },
                 {
-                  "image": "/og/4.png",
+                  "image": "/og/4.webp",
                   "alt": "GLP Certified"
                 },
                 {
-                  "image": "/og/5.png",
+                  "image": "/og/5.webp",
                   "alt": "CE Certified"
                 }
               ]
@@ -487,28 +2079,28 @@
                   "text": "We are highly satisfied with the product quality, timely delivery, and professional service. Their commitment to quality gives us complete confidence.",
                   "author": "Sophia Williams",
                   "role": "Pharmacist & Business Partner",
-                  "image": "/cleint/1.png",
+                  "image": "/cleint/1.webp",
                   "badge": "Excellent Quality"
                 },
                 {
                   "text": "Their consistency in product quality and dedication to meeting urgent requirements is remarkable. They ensure a smooth supply chain across our hospital network.",
                   "author": "Dr. James Carter",
                   "role": "Chief Medical Officer",
-                  "image": "/cleint/2.png",
+                  "image": "/cleint/2.webp",
                   "badge": "Trusted Partner"
                 },
                 {
                   "text": "Working with them is a game-changer. The packaging, efficacy, and regulatory compliance are top-notch, making them our preferred pharmaceutical supplier.",
                   "author": "Elena Rodriguez",
                   "role": "Healthcare Distributor",
-                  "image": "/cleint/3.png",
+                  "image": "/cleint/3.webp",
                   "badge": "Global Standards"
                 },
                 {
                   "text": "A highly reliable partner. We appreciate their strict adherence to WHO-GMP guidelines. They never compromise on quality and resolve queries quickly.",
                   "author": "Michael Chen",
                   "role": "Procurement Manager",
-                  "image": "/cleint/4.png",
+                  "image": "/cleint/4.webp",
                   "badge": "Reliable Service"
                 }
               ]
@@ -519,10 +2111,1588 @@
               "title_line2": "Pharmaceutical Partner?",
               "description": "Let's work together to make a difference in global healthcare. Contact us today for contract manufacturing and export opportunities.",
               "button": {
-                "text": "Enquire Now →",
-                "href": "/contact"
+                "text": "Enquiry Now →",
+                "href": "/enquiry-now"
               },
-              "image": "/banner/cta.png"
+              "image": "/banner/cta.webp"
+            },
+            "mission_vision": {
+              "subtitle": "OUR MISSION & VISION",
+              "title": "Our",
+              "titleHighlight": "Mission & Vision",
+              "description": "Guided by a strong purpose and a clear vision, we strive to deliver high-quality pharmaceutical products for a healthier and brighter tomorrow.",
+              "mission": {
+                "title": "Our",
+                "highlight": "Mission",
+                "description": "Our mission is to improve human health by providing high-quality, safe and effective pharmaceutical products that meet global standards. We are committed to innovation, ethical practices and customer satisfaction to make healthcare more accessible for all.",
+                "image": "/services/1.webp",
+                "icon": "Target"
+              },
+              "vision": {
+                "title": "Our",
+                "highlight": "Vision",
+                "description": "Our vision is to be a globally trusted pharmaceutical company, recognized for our commitment to quality, innovation and sustainable growth, while contributing to a healthier and brighter future for communities around the world.",
+                "image": "/services/8.webp",
+                "icon": "Eye"
+              }
+            },
+            "expertise": {
+              "subtitle": "OUR EXPERTISE",
+              "title": "Our",
+              "titleHighlight": "Expertise",
+              "description": "With years of experience and advanced capabilities, we deliver high-quality pharmaceutical solutions across diverse therapeutic segments.",
+              "items": [
+                {
+                  "title": "Manufacturing",
+                  "description": "State-of-the-art manufacturing facilities ensuring high-quality and consistent production.",
+                  "icon": "Factory",
+                  "image": "/banner/mfg1.webp",
+                  "color": "#0b2c4d"
+                },
+                {
+                  "title": "Research",
+                  "description": "Continuous research and innovation to develop effective and affordable medicines.",
+                  "icon": "Microscope",
+                  "image": "/banner/about.webp",
+                  "color": "#00a2c0"
+                },
+                {
+                  "title": "Quality Testing",
+                  "description": "Rigorous quality control and testing at every stage to meet global standards.",
+                  "icon": "ShieldCheck",
+                  "image": "/services/7.webp",
+                  "color": "#007bb5"
+                },
+                {
+                  "title": "Distribution",
+                  "description": "Strong distribution network ensuring timely delivery across domestic and international markets.",
+                  "icon": "Truck",
+                  "image": "/services/4.webp",
+                  "color": "#00967a"
+                }
+              ]
+            },
+            "why_choose_us": {
+              "subtitle": "WHY CHOOSE US",
+              "title": "Why",
+              "titleHighlight": "Choose Us",
+              "description": "We are committed to delivering superior pharmaceutical products and building long-term partnerships through quality, reliability and trust.",
+              "items": [
+                {
+                  "title": "High-Quality Products",
+                  "description": "We ensure the highest quality standards in every product we manufacture.",
+                  "icon": "Award",
+                  "gradient": "from-[#0b2c4d] to-[#1a5b9c]"
+                },
+                {
+                  "title": "Advanced Technology",
+                  "description": "Modern infrastructure and advanced technology for better healthcare solutions.",
+                  "icon": "Lightbulb",
+                  "gradient": "from-[#009e90] to-[#00d0bc]"
+                },
+                {
+                  "title": "Experienced Team",
+                  "description": "A team of skilled professionals dedicated to innovation and excellence.",
+                  "icon": "Users",
+                  "gradient": "from-[#0b2c4d] to-[#1a5b9c]"
+                },
+                {
+                  "title": "Customer-Focused Approach",
+                  "description": "We build strong and long-term relationships with our partners and customers.",
+                  "icon": "Handshake",
+                  "gradient": "from-[#009e90] to-[#00d0bc]"
+                },
+                {
+                  "title": "Timely Delivery",
+                  "description": "Reliable supply chain and efficient distribution for on-time delivery.",
+                  "icon": "Clock",
+                  "gradient": "from-[#0b2c4d] to-[#1a5b9c]"
+                },
+                {
+                  "title": "Global Standards",
+                  "description": "Our products meet international regulatory standards for global acceptance.",
+                  "icon": "Globe",
+                  "gradient": "from-[#009e90] to-[#00d0bc]"
+                }
+              ]
+            },
+            "infrastructure": {
+              "subtitle": "OUR INFRASTRUCTURE",
+              "title": "Our",
+              "titleHighlight": "Infrastructure",
+              "description": "Our state-of-the-art infrastructure is the backbone of our commitment to quality, innovation and reliable supply of pharmaceutical products.",
+              "image": "/banner/corporate.webp",
+              "card": {
+                "title": "Our",
+                "titleHighlight": "Corporate Facility",
+                "description": "Our modern manufacturing and corporate facility is equipped with advanced technology, world-class equipment and a highly skilled team to ensure the highest standards of quality, safety and efficiency in every product we deliver.",
+                "features": [
+                  {
+                    "title": "Modern Facilities",
+                    "icon": "Factory"
+                  },
+                  {
+                    "title": "Quality Assured",
+                    "icon": "ShieldCheck"
+                  },
+                  {
+                    "title": "Global Standards",
+                    "icon": "Settings"
+                  }
+                ]
+              }
+            },
+            "blogs": {
+              "sectionTitle": "BLOGS",
+              "mainTitle": "Our Latest ",
+              "mainTitleHighlight": "Blogs",
+              "items": [
+                {
+                  "title": "The Importance of Quality Control in Pharmaceutical Manufacturing",
+                  "titleHighlight": "Pharmaceutical Manufacturing",
+                  "category": "Healthcare",
+                  "day": "15",
+                  "month": "March",
+                  "year": "2024",
+                  "date": "March 15, 2024",
+                  "image": "/services/2.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Quality control is a critical aspect of pharmaceutical manufacturing. It ensures that every product meets strict safety, efficacy and regulatory standards before reaching patients.",
+                  "slug": "the-importance-of-quality-control"
+                },
+                {
+                  "title": "Benefits of Contract Manufacturing in Pharma",
+                  "day": "10",
+                  "month": "March",
+                  "year": "2024",
+                  "date": "March 10, 2024",
+                  "image": "/blogs/recent-1.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Discover the key advantages of contract manufacturing in the pharmaceutical industry and how it boosts efficiency.",
+                  "slug": "benefits-of-contract-manufacturing"
+                },
+                {
+                  "title": "A Complete Guide to Pharmaceutical Tablets",
+                  "day": "28",
+                  "month": "February",
+                  "year": "2024",
+                  "date": "February 28, 2024",
+                  "image": "/blogs/recent-2.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "An in-depth look at formulation, coating, compression, and quality testing of modern pharmaceutical tablets.",
+                  "slug": "guide-to-pharmaceutical-tablets"
+                },
+                {
+                  "title": "How to Ensure Drug Safety and Efficacy",
+                  "day": "15",
+                  "month": "February",
+                  "year": "2024",
+                  "date": "February 15, 2024",
+                  "image": "/blogs/recent-3.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Essential protocols and rigorous clinical standards required to guarantee drug safety and patient well-being.",
+                  "slug": "ensure-drug-safety-and-efficacy"
+                },
+                {
+                  "title": "The Role of Technology in Modern Pharma",
+                  "day": "20",
+                  "month": "January",
+                  "year": "2024",
+                  "date": "January 20, 2024",
+                  "image": "/blogs/recent-4.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Exploring automation, artificial intelligence, and robotics transforming global pharmaceutical production.",
+                  "slug": "role-of-technology-in-modern-pharma"
+                },
+                {
+                  "title": "Benefits of Herbal and Natural Products",
+                  "day": "05",
+                  "month": "January",
+                  "year": "2024",
+                  "date": "January 05, 2024",
+                  "image": "/blogs/recent-5.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Exploring herbal extracts and botanical formulations in contemporary healthcare applications.",
+                  "slug": "benefits-of-herbal-products"
+                },
+                {
+                  "title": "How Medicines Are Manufactured",
+                  "day": "28",
+                  "month": "Apr",
+                  "image": "/services/2.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Lorem Ipsum is simply dummy text the and standard dummy text ever since.",
+                  "slug": "how-medicines-are-manufactured",
+                  "year": "2024",
+                  "date": "April 28, 2024"
+                },
+                {
+                  "title": "Healthcare Innovation for a Better Tomorrow",
+                  "day": "20",
+                  "month": "Apr",
+                  "image": "/services/3.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Lorem Ipsum is simply dummy text the and standard dummy text ever since.",
+                  "slug": "healthcare-innovation",
+                  "year": "2024",
+                  "date": "April 20, 2024"
+                },
+                {
+                  "title": "Tips to Maintain a Healthy Heart",
+                  "day": "15",
+                  "month": "Apr",
+                  "image": "/services/4.webp",
+                  "author": "Admin",
+                  "comments": "No Comment",
+                  "excerpt": "Lorem Ipsum is simply dummy text the and standard dummy text ever since.",
+                  "slug": "tips-to-maintain-healthy-heart",
+                  "year": "2024",
+                  "date": "April 15, 2024"
+                }
+              ]
+            },
+            "blogDetails": {
+              "the-importance-of-quality-control": {
+                "badge": "Healthcare",
+                "title": "The Importance of Quality Control in Pharmaceutical Manufacturing",
+                "titleHighlight": "Pharmaceutical Manufacturing",
+                "category": "Healthcare",
+                "day": "15",
+                "month": "March",
+                "year": "2024",
+                "date": "March 15, 2024",
+                "image": "/services/2.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "Quality control is a critical aspect of pharmaceutical manufacturing. It ensures that every product meets strict safety, efficacy and regulatory standards before reaching patients.",
+                "slug": "the-importance-of-quality-control",
+                "intro": "Quality control is a critical aspect of pharmaceutical manufacturing. It ensures that every product meets strict safety, efficacy and regulatory standards before reaching patients. With the growing demand for high-quality medicines worldwide, robust quality control processes have become more important than ever.",
+                "subSection1": {
+                  "heading": "What is",
+                  "headingHighlight": "Quality Control?",
+                  "text": "Quality control (QC) in pharmaceutical manufacturing involves a series of tests, inspections and procedures to ensure that raw materials, in-process materials and finished products meet predefined quality standards. It helps in identifying and preventing defects, ensuring patient safety and maintaining product consistency.",
+                  "image": "/services/2.webp"
+                },
+                "subSection2": {
+                  "heading": "Why is Quality Control",
+                  "headingHighlight": "Important?",
+                  "points": [
+                    "Ensures safety and efficacy of medicines",
+                    "Helps in compliance with regulatory standards (WHO, GMP, etc.)",
+                    "Maintains consistency in product quality",
+                    "Reduces the risk of contamination and cross-contamination",
+                    "Builds trust among healthcare professionals and patients"
+                  ]
+                },
+                "processes": {
+                  "heading": "Key Quality",
+                  "headingHighlight": "Control Processes",
+                  "items": [
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Raw Material Testing",
+                      "description": "Verifies the quality and purity of incoming materials."
+                    },
+                    {
+                      "icon": "Settings",
+                      "title": "In-Process Testing",
+                      "description": "Monitors production at different stages."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Finished Product Testing",
+                      "description": "Ensures the final product meets all quality standards before release."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Quality control plays a vital role in pharmaceutical manufacturing by ensuring that every medicine is safe, effective and of the highest quality. A strong QC system not only helps companies comply with global regulations but also contributes to better healthcare outcomes and a healthier society."
+                }
+              },
+              "benefits-of-contract-manufacturing": {
+                "badge": "Healthcare",
+                "title": "Benefits of Contract Manufacturing in Pharma",
+                "titleHighlight": "in Pharma",
+                "category": "Healthcare",
+                "day": "10",
+                "month": "March",
+                "year": "2024",
+                "date": "March 10, 2024",
+                "image": "/blogs/recent-1.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "Discover the key advantages of contract manufacturing in the pharmaceutical industry and how it boosts efficiency.",
+                "slug": "benefits-of-contract-manufacturing",
+                "intro": "Contract Development and Manufacturing Organizations (CDMOs) have become instrumental in the pharmaceutical supply chain. By partnering with specialized manufacturing facilities, healthcare companies can scale production rapidly while optimizing capital expenditure.",
+                "subSection1": {
+                  "heading": "Understanding",
+                  "headingHighlight": "Contract Manufacturing",
+                  "text": "Pharmaceutical contract manufacturing involves outsourcing drug formulation, processing, testing, and packaging to certified third-party manufacturing facilities. This allows pharmaceutical brands to concentrate on core drug discovery and commercial marketing while leveraging cutting-edge production lines.",
+                  "image": "/blogs/recent-1.webp"
+                },
+                "subSection2": {
+                  "heading": "Core Strategic",
+                  "headingHighlight": "Advantages",
+                  "points": [
+                    "Substantial reduction in infrastructure and capital costs",
+                    "Access to specialized formulation equipment and cleanrooms",
+                    "Accelerated time-to-market for novel therapeutic products",
+                    "Comprehensive WHO-GMP and international regulatory compliance",
+                    "Flexibility to scale batch sizes based on global demand"
+                  ]
+                },
+                "processes": {
+                  "heading": "Key Partnership",
+                  "headingHighlight": "Milestones",
+                  "items": [
+                    {
+                      "icon": "Settings",
+                      "title": "Technical Transfer",
+                      "description": "Seamless technology and analytical methodology migration."
+                    },
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Pilot Batch Trials",
+                      "description": "Validating production yields and consistency at scale."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Commercial Release",
+                      "description": "Full-scale compliant manufacturing and batch documentation."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Partnering with an experienced pharmaceutical manufacturer provides companies with operational agility, lower overheads, and guaranteed adherence to global quality benchmarks."
+                }
+              },
+              "guide-to-pharmaceutical-tablets": {
+                "badge": "Healthcare",
+                "title": "A Complete Guide to Pharmaceutical Tablets",
+                "titleHighlight": "Pharmaceutical Tablets",
+                "category": "Healthcare",
+                "day": "28",
+                "month": "February",
+                "year": "2024",
+                "date": "February 28, 2024",
+                "image": "/blogs/recent-2.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "An in-depth look at formulation, coating, compression, and quality testing of modern pharmaceutical tablets.",
+                "slug": "guide-to-pharmaceutical-tablets",
+                "intro": "Tablets remain the most common, patient-friendly, and cost-effective solid dosage form globally. From immediate release formulations to enteric-coated multi-layered designs, tablet manufacturing blends advanced material science with precise mechanical engineering.",
+                "subSection1": {
+                  "heading": "The Science of",
+                  "headingHighlight": "Tablet Formulation",
+                  "text": "Solid dosage manufacturing combines active pharmaceutical ingredients (APIs) with carefully chosen excipients, binders, disintegrants, and lubricants. Granulation, drying, blending, and rotary compression are strictly controlled to guarantee bioavailability and dosage uniformity.",
+                  "image": "/blogs/recent-2.webp"
+                },
+                "subSection2": {
+                  "heading": "Critical Quality",
+                  "headingHighlight": "Parameters",
+                  "points": [
+                    "Consistent weight uniformity and precise API dosage",
+                    "Optimal hardness and minimal friability during transit",
+                    "Standardized disintegration and dissolution rates",
+                    "Protective moisture-barrier and taste-masking coatings",
+                    "Extended shelf-life stability under variable climate zones"
+                  ]
+                },
+                "processes": {
+                  "heading": "Key Manufacturing",
+                  "headingHighlight": "Phases",
+                  "items": [
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Wet & Dry Granulation",
+                      "description": "Forming uniform granules to ensure consistent flowability."
+                    },
+                    {
+                      "icon": "Settings",
+                      "title": "High-Speed Compression",
+                      "description": "Multi-station compression ensuring weight and hardness control."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Precision Coating",
+                      "description": "Aesthetic, enteric, or sustained-release film coating."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "State-of-the-art tablet manufacturing guarantees patient compliance through uniform dosing, exceptional stability, and seamless therapeutic efficacy."
+                }
+              },
+              "ensure-drug-safety-and-efficacy": {
+                "badge": "Healthcare",
+                "title": "How to Ensure Drug Safety and Efficacy",
+                "titleHighlight": "Safety and Efficacy",
+                "category": "Healthcare",
+                "day": "15",
+                "month": "February",
+                "year": "2024",
+                "date": "February 15, 2024",
+                "image": "/blogs/recent-3.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "Essential protocols and rigorous clinical standards required to guarantee drug safety and patient well-being.",
+                "slug": "ensure-drug-safety-and-efficacy",
+                "intro": "Ensuring patient safety is the cornerstone of every pharmaceutical organization. Rigorous testing protocols, clinical pharmacovigilance, and environmental monitoring protect medication integrity from laboratory synthesis to patient administration.",
+                "subSection1": {
+                  "heading": "Establishing Rigorous",
+                  "headingHighlight": "Safety Standards",
+                  "text": "Drug safety is maintained through a combination of validated analytical testing, bioequivalence verification, and continuous batch traceability. Analytical chemistry ensures zero contamination and absolute chemical purity in every unit produced.",
+                  "image": "/blogs/recent-3.webp"
+                },
+                "subSection2": {
+                  "heading": "Core Pillars of",
+                  "headingHighlight": "Drug Safety",
+                  "points": [
+                    "Comprehensive stability testing under accelerated thermal conditions",
+                    "Sterile cleanroom validation conforming to ISO classifications",
+                    "End-to-end serialized barcode traceability across distribution",
+                    "Systematic monitoring of adverse events and pharmacovigilance",
+                    "Regular internal and third-party regulatory audits"
+                  ]
+                },
+                "processes": {
+                  "heading": "Verification",
+                  "headingHighlight": "Protocols",
+                  "items": [
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Microbial Testing",
+                      "description": "Ensuring absence of pathogenic micro-organisms and endotoxins."
+                    },
+                    {
+                      "icon": "Settings",
+                      "title": "Dissolution Profiling",
+                      "description": "Confirming predictable rate of drug release and absorption."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Regulatory Clearance",
+                      "description": "Strict compliance with WHO-GMP and international pharmacopoeia."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Uncompromising focus on drug safety and efficacy preserves public health, inspires medical practitioner trust, and upholds corporate integrity."
+                }
+              },
+              "role-of-technology-in-modern-pharma": {
+                "badge": "Healthcare",
+                "title": "The Role of Technology in Modern Pharma",
+                "titleHighlight": "in Modern Pharma",
+                "category": "Healthcare",
+                "day": "20",
+                "month": "January",
+                "year": "2024",
+                "date": "January 20, 2024",
+                "image": "/blogs/recent-4.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "Exploring automation, artificial intelligence, and robotics transforming global pharmaceutical production.",
+                "slug": "role-of-technology-in-modern-pharma",
+                "intro": "Technological innovation is rapidly transforming pharmaceutical manufacturing. Artificial intelligence, robotics, automated batch monitoring, and continuous processing are elevating production efficiency and eliminating human error.",
+                "subSection1": {
+                  "heading": "Industry 4.0 in",
+                  "headingHighlight": "Pharmaceuticals",
+                  "text": "Smart manufacturing facilities leverage IoT sensors, automated optical inspections, and supervisory control systems to track temperature, humidity, and machine parameters in real time. This ensures consistent quality across large manufacturing outputs.",
+                  "image": "/blogs/recent-4.webp"
+                },
+                "subSection2": {
+                  "heading": "Transformative",
+                  "headingHighlight": "Technologies",
+                  "points": [
+                    "Automated high-speed packaging lines with computer vision inspection",
+                    "Predictive maintenance reducing machinery downtime and batch waste",
+                    "Continuous data logging providing tamper-proof audit trails",
+                    "Robotic material handling within sterile barrier isolators",
+                    "AI-driven formulation optimization and dissolution modeling"
+                  ]
+                },
+                "processes": {
+                  "heading": "Smart Automation",
+                  "headingHighlight": "Solutions",
+                  "items": [
+                    {
+                      "icon": "Settings",
+                      "title": "SCADA Integration",
+                      "description": "Centralized supervision and automated recipe execution."
+                    },
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Automated Sampling",
+                      "description": "Online spectrometry for real-time release testing."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Digital Batch Records",
+                      "description": "Paperless compliance reducing deviation and documentation errors."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Adopting modern pharmaceutical technology establishes higher quality benchmarks, streamlines compliance, and brings lifesaving therapies to market faster."
+                }
+              },
+              "benefits-of-herbal-products": {
+                "badge": "Healthcare",
+                "title": "Benefits of Herbal and Natural Products",
+                "titleHighlight": "Natural Products",
+                "category": "Healthcare",
+                "day": "05",
+                "month": "January",
+                "year": "2024",
+                "date": "January 05, 2024",
+                "image": "/blogs/recent-5.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "Exploring herbal extracts and botanical formulations in contemporary healthcare applications.",
+                "slug": "benefits-of-herbal-products",
+                "intro": "The convergence of traditional herbal medicine and modern scientific validation is unlocking powerful therapeutic solutions. Standardized botanical extracts offer holistic wellness and preventative health support.",
+                "subSection1": {
+                  "heading": "Scientific Validation of",
+                  "headingHighlight": "Herbal Medicine",
+                  "text": "Contemporary herbal manufacturing applies chromatographic fingerprinting, phytochemical standardization, and rigorous microbiological testing to ensure every herbal formulation delivers consistent active compounds with guaranteed potency.",
+                  "image": "/blogs/recent-5.webp"
+                },
+                "subSection2": {
+                  "heading": "Key Health",
+                  "headingHighlight": "Benefits",
+                  "points": [
+                    "Natural synergy of bioactive phytochemicals supporting immunity",
+                    "Lower incidence of long-term side effects when properly formulated",
+                    "Sustainable sourcing and eco-friendly manufacturing methods",
+                    "Effective complementary therapies for chronic lifestyle conditions",
+                    "Rigorous heavy metal and pesticide residue screenings"
+                  ]
+                },
+                "processes": {
+                  "heading": "Quality Extraction",
+                  "headingHighlight": "Workflow",
+                  "items": [
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Botanical Sourcing",
+                      "description": "Ethical harvesting of authentic, contaminant-free plant raw materials."
+                    },
+                    {
+                      "icon": "Settings",
+                      "title": "Standardized Extraction",
+                      "description": "Supercritical fluid and solvent extraction maximizing active yields."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Phytochemical Assay",
+                      "description": "HPLC and GC-MS testing guaranteeing biomarker concentration."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Standardized herbal formulations combine nature's wisdom with pharmaceutical rigor, delivering safe, evidence-based wellness products."
+                }
+              },
+              "how-medicines-are-manufactured": {
+                "badge": "Healthcare",
+                "title": "How Medicines Are Manufactured",
+                "titleHighlight": "Medicines Are Manufactured",
+                "category": "Healthcare",
+                "day": "28",
+                "month": "April",
+                "year": "2024",
+                "date": "April 28, 2024",
+                "image": "/services/2.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "An overview of primary and secondary processing stages required to produce modern therapeutic formulations.",
+                "slug": "how-medicines-are-manufactured",
+                "intro": "The journey of a medicine from active raw substance to a sealed pharmacy shelf is a complex multi-disciplinary journey. Strict adherence to Good Manufacturing Practices (GMP) ensures that every dose is safe, potent, and pure.",
+                "subSection1": {
+                  "heading": "From Formula to",
+                  "headingHighlight": "Final Medicine",
+                  "text": "Pharmaceutical manufacturing encompasses chemical synthesis, blending, processing into suitable dosage forms (tablets, syrups, injections, or ointments), rigorous quality inspection, and protective packaging.",
+                  "image": "/services/2.webp"
+                },
+                "subSection2": {
+                  "heading": "Essential Production",
+                  "headingHighlight": "Steps",
+                  "points": [
+                    "Quarantine and chemical assay of incoming active ingredients",
+                    "Environmentally controlled cleanroom processing and sterile air filtration",
+                    "Strict in-process testing during compression, filling, or sealing",
+                    "Multi-layer barrier packaging guarding against moisture and light",
+                    "Release by qualified QP (Qualified Person) after extensive audit"
+                  ]
+                },
+                "processes": {
+                  "heading": "Core Production",
+                  "headingHighlight": "Streams",
+                  "items": [
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Formulation & Blending",
+                      "description": "Accurate molecular dispersion and homogenization."
+                    },
+                    {
+                      "icon": "Settings",
+                      "title": "Dosage Unit Filling",
+                      "description": "High-precision volumetric filling into blisters, bottles, or vials."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Release & Dispatch",
+                      "description": "Finished goods warehouse storage under validated conditions."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Disciplined engineering, sterile cleanrooms, and stringent regulatory protocols guarantee that manufactured medicines perform reliably for patients worldwide."
+                }
+              },
+              "healthcare-innovation": {
+                "badge": "Healthcare",
+                "title": "Healthcare Innovation for a Better Tomorrow",
+                "titleHighlight": "Better Tomorrow",
+                "category": "Healthcare",
+                "day": "20",
+                "month": "April",
+                "year": "2024",
+                "date": "April 20, 2024",
+                "image": "/services/3.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "Exploring next-generation pharmaceutical technologies and innovative therapeutic delivery models.",
+                "slug": "healthcare-innovation",
+                "intro": "Innovation in healthcare goes beyond drug discovery—it spans patient care delivery, personalized medicine, smart drug delivery systems, and sustainable medical packaging.",
+                "subSection1": {
+                  "heading": "Pioneering Next-Gen",
+                  "headingHighlight": "Healthcare",
+                  "text": "Breakthroughs in targeted drug delivery, nanomedicine, and biodegradable packaging are redefining how pharmaceutical companies address complex health challenges.",
+                  "image": "/services/3.webp"
+                },
+                "subSection2": {
+                  "heading": "Transformative",
+                  "headingHighlight": "Innovations",
+                  "points": [
+                    "Targeted drug delivery minimizing off-target adverse effects",
+                    "Smart packaging with temperature tracking sensors",
+                    "Environmentally sustainable and recyclable pharmaceutical materials",
+                    "AI-enabled clinical trial design and outcome predictions",
+                    "Patient-centric customized dosage formulations"
+                  ]
+                },
+                "processes": {
+                  "heading": "Development",
+                  "headingHighlight": "Cycle",
+                  "items": [
+                    {
+                      "icon": "FlaskConical",
+                      "title": "R&D Discovery",
+                      "description": "Investigating novel therapeutic molecules and delivery vectors."
+                    },
+                    {
+                      "icon": "Settings",
+                      "title": "Clinical Optimization",
+                      "description": "Refining pharmacokinetics and patient adherence factors."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Commercial Scaling",
+                      "description": "Scaling cutting-edge formulations for global access."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Relentless pursuit of innovation drives healthcare progress, delivering more effective remedies and sustainable health systems."
+                }
+              },
+              "tips-to-maintain-healthy-heart": {
+                "badge": "Healthcare",
+                "title": "Tips to Maintain a Healthy Heart",
+                "titleHighlight": "Healthy Heart",
+                "category": "Healthcare",
+                "day": "15",
+                "month": "April",
+                "year": "2024",
+                "date": "April 15, 2024",
+                "image": "/services/4.webp",
+                "author": "Admin",
+                "comments": "No Comment",
+                "excerpt": "Actionable lifestyle habits and clinical advice to foster long-term cardiovascular health and vitality.",
+                "slug": "tips-to-maintain-healthy-heart",
+                "intro": "Cardiovascular wellness is fundamental to longevity and vibrant quality of life. Understanding preventative healthcare, vital indicators, and therapeutic management can dramatically reduce cardiovascular risks.",
+                "subSection1": {
+                  "heading": "Understanding",
+                  "headingHighlight": "Cardiovascular Health",
+                  "text": "The cardiovascular system requires balanced nutrition, regular aerobic activity, and routine monitoring of lipid profiles and blood pressure levels to prevent arterial plaque accumulation.",
+                  "image": "/services/4.webp"
+                },
+                "subSection2": {
+                  "heading": "Essential Cardiovascular",
+                  "headingHighlight": "Habits",
+                  "points": [
+                    "Adopt a diet rich in antioxidants, omega-3 fatty acids, and fiber",
+                    "Engage in at least 150 minutes of moderate aerobic exercise weekly",
+                    "Regular monitoring of blood pressure, blood glucose, and cholesterol",
+                    "Effective stress management and consistent restorative sleep",
+                    "Avoid tobacco use and limit excessive sodium consumption"
+                  ]
+                },
+                "processes": {
+                  "heading": "Monitoring",
+                  "headingHighlight": "Vitals",
+                  "items": [
+                    {
+                      "icon": "FlaskConical",
+                      "title": "Lipid Screening",
+                      "description": "Measuring HDL, LDL, and triglyceride ratios regularly."
+                    },
+                    {
+                      "icon": "Settings",
+                      "title": "Pressure Monitoring",
+                      "description": "Tracking resting arterial systolic and diastolic pressures."
+                    },
+                    {
+                      "icon": "ShieldCheck",
+                      "title": "Physician Consultation",
+                      "description": "Preventative screenings tailored to personal risk profiles."
+                    }
+                  ]
+                },
+                "conclusion": {
+                  "heading": "Conclusion",
+                  "text": "Proactive lifestyle choices combined with modern cardiovascular therapies ensure healthy heart function and lifelong vitality."
+                }
+              }
+            },
+            "team": {
+              "subtitle": "OUR TEAM",
+              "title": "Meet Our Expert",
+              "titleHighlight": "Team",
+              "description": "Our team of experienced professionals is dedicated to ensuring high-quality healthcare solutions through innovation, expertise and a commitment to excellence.",
+              "items": [
+                {
+                  "name": "Dr. Rajesh Sharma",
+                  "specialty": "Family Medicine",
+                  "image": "/team/1.webp"
+                },
+                {
+                  "name": "Dr. Priya Verma",
+                  "specialty": "Neurosurgery",
+                  "image": "/team/2.webp"
+                },
+                {
+                  "name": "Dr. Amit Kumar",
+                  "specialty": "Neurology",
+                  "image": "/team/3.webp"
+                },
+                {
+                  "name": "Dr. Sneha Patel",
+                  "specialty": "Dentistry",
+                  "image": "/team/4.webp"
+                },
+                {
+                  "name": "Dr. Vikram Singh",
+                  "specialty": "Cheif Surgeon",
+                  "image": "/team/5.webp"
+                },
+                {
+                  "name": "Dr. Anjali Mehta",
+                  "specialty": "Cardiologist",
+                  "image": "/team/6.webp"
+                },
+                {
+                  "name": "Dr. Karan Malhotra",
+                  "specialty": "Neurologist",
+                  "image": "/team/1.webp"
+                },
+                {
+                  "name": "Dr. Neha Gupta",
+                  "specialty": "Dermatologist",
+                  "image": "/team/2.webp"
+                },
+                {
+                  "name": "Dr. Aditya Joshi",
+                  "specialty": "Pediatrics",
+                  "image": "/team/3.webp"
+                },
+                {
+                  "name": "Dr. Rohit Bansal",
+                  "specialty": "Orthopedic Specialist",
+                  "image": "/team/4.webp"
+                },
+                {
+                  "name": "Dr. Pooja Choudhary",
+                  "specialty": "Gynecologist",
+                  "image": "/team/5.webp"
+                },
+                {
+                  "name": "Dr. Manoj Tiwari",
+                  "specialty": "Oncologist",
+                  "image": "/team/6.webp"
+                },
+                {
+                  "name": "Dr. Sunita Rao",
+                  "specialty": "Endocrinologist",
+                  "image": "/team/1.webp"
+                },
+                {
+                  "name": "Dr. Deepak Verma",
+                  "specialty": "Gastroenterologist",
+                  "image": "/team/2.webp"
+                },
+                {
+                  "name": "Dr. Kavita Nair",
+                  "specialty": "Pulmonologist",
+                  "image": "/team/3.webp"
+                },
+                {
+                  "name": "Dr. Suresh Raina",
+                  "specialty": "General Physician",
+                  "image": "/team/4.webp"
+                },
+                {
+                  "name": "Dr. Meera Nambiar",
+                  "specialty": "Psychiatrist",
+                  "image": "/team/5.webp"
+                },
+                {
+                  "name": "Dr. Sandeep Reddy",
+                  "specialty": "Urologist",
+                  "image": "/team/6.webp"
+                },
+                {
+                  "name": "Dr. Harish Iyer",
+                  "specialty": "Rheumatologist",
+                  "image": "/team/1.webp"
+                },
+                {
+                  "name": "Dr. Swati Deshmukh",
+                  "specialty": "Nephrologist",
+                  "image": "/team/2.webp"
+                },
+                {
+                  "name": "Dr. Vivek Oberoi",
+                  "specialty": "Cardiothoracic Surgeon",
+                  "image": "/team/3.webp"
+                },
+                {
+                  "name": "Dr. Ritu Kapoor",
+                  "specialty": "Ophthalmologist",
+                  "image": "/team/4.webp"
+                },
+                {
+                  "name": "Dr. Alok Nath",
+                  "specialty": "Anesthesiologist",
+                  "image": "/team/5.webp"
+                },
+                {
+                  "name": "Dr. Shalini Sen",
+                  "specialty": "Pathologist",
+                  "image": "/team/6.webp"
+                },
+                {
+                  "name": "Dr. Tarun Khanna",
+                  "specialty": "Radiologist",
+                  "image": "/team/1.webp"
+                },
+                {
+                  "name": "Dr. Divya Saxena",
+                  "specialty": "Hematologist",
+                  "image": "/team/2.webp"
+                },
+                {
+                  "name": "Dr. Pankaj Mishra",
+                  "specialty": "Immunologist",
+                  "image": "/team/3.webp"
+                }
+              ]
+            },
+            "gallery": {
+              "subtitle": "GALLERY",
+              "title": "Our Manufacturing",
+              "titleHighlight": "Gallery",
+              "description": "Take a look at our state-of-the-art manufacturing facilities, advanced technology, quality control processes and team in action.",
+              "items": [
+                {
+                  "id": 1,
+                  "title": "Corporate Manufacturing Facility",
+                  "category": "Infrastructure",
+                  "image": "/banner/corporate.webp"
+                },
+                {
+                  "id": 2,
+                  "title": "High-Capacity Bio-Reactors",
+                  "category": "Manufacturing",
+                  "image": "/expertise/1.webp"
+                },
+                {
+                  "id": 3,
+                  "title": "Tablet Compression System",
+                  "category": "Machinery",
+                  "image": "/expertise/3.webp"
+                },
+                {
+                  "id": 4,
+                  "title": "Digital Automated Controls",
+                  "category": "Technology",
+                  "image": "/expertise/4.webp"
+                },
+                {
+                  "id": 5,
+                  "title": "Capsule Encapsulation Line",
+                  "category": "Production",
+                  "image": "/services/2.webp"
+                },
+                {
+                  "id": 6,
+                  "title": "R&D Analytical Laboratory",
+                  "category": "Research",
+                  "image": "/expertise/2.webp"
+                },
+                {
+                  "id": 7,
+                  "title": "Liquid Syrup Bottling Line",
+                  "category": "Packaging",
+                  "image": "/services/3.webp"
+                },
+                {
+                  "id": 8,
+                  "title": "Cleanroom Sterile Corridor",
+                  "category": "Facility",
+                  "image": "/banner/mfg1.webp"
+                },
+                {
+                  "id": 9,
+                  "title": "Pure Steam & Piping Loop",
+                  "category": "Utilities",
+                  "image": "/services/4.webp"
+                },
+                {
+                  "id": 10,
+                  "title": "Formulation Processing Unit",
+                  "category": "Manufacturing",
+                  "image": "/banner/mfg2.webp"
+                },
+                {
+                  "id": 11,
+                  "title": "High-Speed Blister Packaging",
+                  "category": "Packaging",
+                  "image": "/services/6.webp"
+                },
+                {
+                  "id": 12,
+                  "title": "Microbiological Testing Lab",
+                  "category": "Quality Control",
+                  "image": "/blogs/recent-2.webp"
+                },
+                {
+                  "id": 13,
+                  "title": "Chemical Analytical Testing",
+                  "category": "Quality Assurance",
+                  "image": "/blogs/recent-3.webp"
+                },
+                {
+                  "id": 14,
+                  "title": "Raw Material Storage Warehouse",
+                  "category": "Storage",
+                  "image": "/services/5.webp"
+                },
+                {
+                  "id": 15,
+                  "title": "Vial Washing & Filling Line",
+                  "category": "Production",
+                  "image": "/services/7.webp"
+                },
+                {
+                  "id": 16,
+                  "title": "Packaging Automation Unit",
+                  "category": "Machinery",
+                  "image": "/blogs/recent-4.webp"
+                }
+              ]
+            },
+            "faq": {
+              "subtitle": "FAQS",
+              "title": "Frequently Asked",
+              "titleHighlight": "Questions",
+              "description": "Find answers to common questions about our pharmaceutical manufacturing facilities, products, quality assurance and third-party services.",
+              "sidebar": {
+                "image": "/banner/mfg2.webp",
+                "icon": "Headphones",
+                "title": "Still Have Questions?",
+                "description": "Our team is here to help you with any queries related to our products, manufacturing process or services.",
+                "button": {
+                  "text": "Contact Us",
+                  "href": "/contact"
+                },
+                "contact_info": [
+                  {
+                    "icon": "Phone",
+                    "title": "+100000000000",
+                    "subtitle": "Mon - Sat: 9:00 AM - 6:00 PM"
+                  },
+                  {
+                    "icon": "Mail",
+                    "title": "info@xyz.com",
+                    "subtitle": "We Reply Within 24 Hours"
+                  },
+                  {
+                    "icon": "MapPin",
+                    "title": "123 Education Lane,",
+                    "subtitle": "New York, NY 10001"
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "id": 1,
+                  "number": "01",
+                  "question": "What types of products do you manufacture?",
+                  "answer": "We manufacture a wide range of pharmaceutical and healthcare products including tablets, capsules, syrups, injectables and other speciality formulations as per industry standards and regulatory guidelines."
+                },
+                {
+                  "id": 2,
+                  "number": "02",
+                  "question": "Are your manufacturing facilities certified?",
+                  "answer": "Yes, our manufacturing facilities are WHO-GMP, ISO 9001:2015, GLP, and CE certified, adhering to stringent international quality and safety benchmarks."
+                },
+                {
+                  "id": 3,
+                  "number": "03",
+                  "question": "What quality control measures do you follow?",
+                  "answer": "We implement multi-stage quality assurance protocols, including raw material testing, in-process quality checks, stability studies, and microbiological testing using state-of-the-art laboratory equipment."
+                },
+                {
+                  "id": 4,
+                  "number": "04",
+                  "question": "Do you offer third-party manufacturing services?",
+                  "answer": "Yes, we provide end-to-end contract and third-party manufacturing services, including formulation development, customized packaging, regulatory documentation, and timely bulk supply."
+                },
+                {
+                  "id": 5,
+                  "number": "05",
+                  "question": "Can I visit your manufacturing facility?",
+                  "answer": "Yes, prospective business partners, regulatory auditors, and clients are welcome to schedule an on-site visit to inspect our advanced manufacturing plant and quality infrastructure."
+                },
+                {
+                  "id": 6,
+                  "number": "06",
+                  "question": "What is your minimum order quantity (MOQ)?",
+                  "answer": "Our minimum order quantity varies depending on the product category and formulation type. Please contact our business development team for customized batch size options."
+                },
+                {
+                  "id": 7,
+                  "number": "07",
+                  "question": "How do you ensure product safety and compliance?",
+                  "answer": "All our formulations undergo rigorous stability testing, contamination control, validation protocols, and strict adherence to pharmacopoeial standards (IP/BP/USP)."
+                },
+                {
+                  "id": 8,
+                  "number": "08",
+                  "question": "Do you provide custom formulation services?",
+                  "answer": "Yes, our dedicated R&D team works closely with clients to develop custom formulations, dosage modifications, and specialized drug delivery systems."
+                },
+                {
+                  "id": 9,
+                  "number": "09",
+                  "question": "Which regulatory guidelines do you follow?",
+                  "answer": "We strictly adhere to WHO-GMP guidelines, Schedule M guidelines, FDA regulations, and standard pharmacopoeial specifications to ensure global acceptance."
+                },
+                {
+                  "id": 10,
+                  "number": "10",
+                  "question": "How can I get a quotation for bulk orders?",
+                  "answer": "You can submit an inquiry through our contact form, email us at info@xyz.com, or call our sales team directly at +100000000000 for a prompt and competitive quotation."
+                },
+                {
+                  "id": 11,
+                  "number": "11",
+                  "question": "Do you export your products?",
+                  "answer": "Yes, we export high-quality pharmaceutical formulations to multiple international markets across Asia, Africa, CIS, and Latin America with complete regulatory documentation support."
+                },
+                {
+                  "id": 12,
+                  "number": "12",
+                  "question": "What is the lead time for product manufacturing?",
+                  "answer": "Standard manufacturing lead time typically ranges between 3 to 5 weeks from order confirmation and artwork approval, depending on batch volume and packaging specifications."
+                }
+              ]
+            },
+            "contact": {
+              "subtitle": "CONTACT US",
+              "title": "Get In Touch",
+              "titleHighlight": "With Us",
+              "description": "We are here to assist you with your manufacturing requirements, product enquiries and business collaborations. Feel free to reach out to us.",
+              "info_card": {
+                "title": "Our Contact",
+                "titleHighlight": "Information",
+                "description": "Have a question or need assistance? Reach out to us through any of the following contact details.",
+                "image": "/banner/about.webp",
+                "items": [
+                  {
+                    "icon": "MapPin",
+                    "title": "Our Address",
+                    "details": "123 Education Lane, New York, NY 10001"
+                  },
+                  {
+                    "icon": "Phone",
+                    "title": "Call Us",
+                    "details": "+100000000000",
+                    "subtext": "Mon - Sat: 9:00 AM - 6:00 PM"
+                  },
+                  {
+                    "icon": "Mail",
+                    "title": "Email Us",
+                    "details": "info@xyz.com",
+                    "subtext": "We reply within 24 hours"
+                  },
+                  {
+                    "icon": "Clock",
+                    "title": "Working Hours",
+                    "details": "Monday - Saturday : 9:00 AM - 6:00 PM",
+                    "subtext": "Sunday : Closed"
+                  }
+                ]
+              },
+              "form_card": {
+                "title": "Send Us a",
+                "titleHighlight": "Message",
+                "description": "Fill out the form below and our team will get back to you shortly.",
+                "fields": {
+                  "name_label": "Full Name",
+                  "name_placeholder": "Enter your full name",
+                  "email_label": "Email Address",
+                  "email_placeholder": "Enter your email address",
+                  "phone_label": "Phone Number",
+                  "phone_placeholder": "Enter your phone number",
+                  "subject_label": "Subject",
+                  "subject_placeholder": "Select a subject",
+                  "subject_options": [
+                    "Contract Manufacturing",
+                    "Product Inquiry",
+                    "Third-Party Manufacturing",
+                    "Export Collaboration",
+                    "Quality & Compliance",
+                    "General Inquiry"
+                  ],
+                  "message_label": "Message",
+                  "message_placeholder": "Write your message here..."
+                },
+                "button": {
+                  "text": "Submit Message"
+                }
+              },
+              "map": {
+                "company_name": "Medicare Lifesciences",
+                "address": "123 Education Lane, New York, NY 10001",
+                "embed_url": "https://maps.google.com/maps?q=123%20Education%20Lane%2C%20New%20York%2C%20NY%2010001&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              }
+            },
+            "enquiry": {
+              "left_card": {
+                "subtitle": "GET IN TOUCH",
+                "title_line1": "Let's Discuss",
+                "title_line2": "Your Requirements",
+                "description": "Share your enquiry with us and our team will get back to you with the best possible solution.",
+                "items": [
+                  {
+                    "icon": "MapPin",
+                    "title": "Our Address",
+                    "details": "123 Education Lane,",
+                    "subtext": "New York, NY 10001"
+                  },
+                  {
+                    "icon": "Phone",
+                    "title": "Call Us",
+                    "details": "+100000000000"
+                  },
+                  {
+                    "icon": "Mail",
+                    "title": "Email Us",
+                    "details": "info@xyz.com"
+                  },
+                  {
+                    "icon": "Clock",
+                    "title": "Working Hours",
+                    "details": "Mon - Sat: 9:00 AM - 6:00 PM",
+                    "subtext": "Sunday: Closed"
+                  }
+                ],
+                "socials": [
+                  {
+                    "icon": "Facebook",
+                    "href": "https://www.facebook.com/"
+                  },
+                  {
+                    "icon": "Twitter",
+                    "href": "https://x.com/"
+                  },
+                  {
+                    "icon": "Linkedin",
+                    "href": "https://www.linkedin.com/"
+                  },
+                  {
+                    "icon": "Instagram",
+                    "href": "https://www.instagram.com/"
+                  },
+                  {
+                    "icon": "Youtube",
+                    "href": "https://www.youtube.com/"
+                  }
+                ]
+              },
+              "form_card": {
+                "subtitle": "SEND US AN ENQUIRY",
+                "title": "Enquiry Form",
+                "description": "Fill in the details below and we will get back to you shortly.",
+                "fields": {
+                  "name_label": "Your Name",
+                  "name_placeholder": "Enter your name",
+                  "email_label": "Email Address",
+                  "email_placeholder": "Enter your email",
+                  "phone_label": "Phone Number",
+                  "phone_placeholder": "Enter your phone number",
+                  "subject_label": "Subject",
+                  "subject_placeholder": "Select a subject",
+                  "subject_options": [
+                    "Contract Manufacturing",
+                    "Third-Party Manufacturing",
+                    "Bulk Order Enquiry",
+                    "Product Information",
+                    "Regulatory & Export",
+                    "Quality Assurance",
+                    "Other"
+                  ],
+                  "message_label": "Your Message",
+                  "message_placeholder": "Write your enquiry here...",
+                  "attachment": {
+                    "title": "Attach Files (Optional)",
+                    "description": "You can upload documents, images or reference files (Max 5MB)",
+                    "button_text": "Choose File"
+                  },
+                  "terms_text": "I agree to the Terms & Conditions and Privacy Policy."
+                },
+                "button": {
+                  "text": "Send Enquiry"
+                }
+              }
+            },
+            "manufacturing_facilities": {
+              "overview": {
+                "badge": "MANUFACTURING FACILITIES",
+                "title_part1": "World-Class",
+                "title_part2": "Manufacturing Facilities",
+                "description": "Our state-of-the-art manufacturing facilities are designed to deliver high-quality pharmaceutical products that meet global standards, ensuring safety, efficacy and reliability at every stage of production.",
+                "image": "/banner/corporate.webp"
+              },
+              "infrastructure": {
+                "badge": "MODERN INFRASTRUCTURE",
+                "title_part1": "Built for",
+                "title_part2": "Excellence",
+                "description": "Our modern manufacturing unit is equipped with advanced infrastructure, world-class equipment and a highly skilled team to ensure efficient and consistent production of high-quality pharmaceutical products.",
+                "image": "/banner/mfg1.webp",
+                "features": [
+                  {
+                    "icon": "Building2",
+                    "title": "Spacious Facility"
+                  },
+                  {
+                    "icon": "Settings",
+                    "title": "Advanced Technology"
+                  },
+                  {
+                    "icon": "ShieldCheck",
+                    "title": "GMP Compliant"
+                  }
+                ]
+              },
+              "machinery": {
+                "badge": "ADVANCED MACHINERY",
+                "title_part1": "Precision",
+                "title_part2": "& Innovation",
+                "description": "We use automated and high-performance machinery to ensure accurate manufacturing, better process control and consistent product quality.",
+                "images": [
+                  "/expertise/3.webp",
+                  "/banner/mfg2.webp"
+                ]
+              },
+              "capabilities": {
+                "badge": "MANUFACTURING CAPABILITIES",
+                "title_part1": "Diverse",
+                "title_part2": "Product Range",
+                "description": "Our facility is capable of producing a wide range of pharmaceutical products to meet domestic and international market needs.",
+                "items": [
+                  {
+                    "icon": "Pill",
+                    "badge_color": "bg-[#0284c7]",
+                    "title": "Tablets",
+                    "description": "High-volume tablet production with precise dosage and quality control."
+                  },
+                  {
+                    "icon": "Capsule",
+                    "badge_color": "bg-[#0d9488]",
+                    "title": "Capsules",
+                    "description": "Wide range of hard gelatin capsules with high accuracy."
+                  },
+                  {
+                    "icon": "Bottle",
+                    "badge_color": "bg-[#06b6d4]",
+                    "title": "Syrups",
+                    "description": "Liquid formulations produced under strict quality standards."
+                  },
+                  {
+                    "icon": "Syringe",
+                    "badge_color": "bg-[#059669]",
+                    "title": "Injections",
+                    "description": "Sterile manufacturing for a range of injectable products."
+                  },
+                  {
+                    "icon": "Tube",
+                    "badge_color": "bg-[#2563eb]",
+                    "title": "Ointments & Creams",
+                    "description": "Topical formulations manufactured in controlled environments."
+                  }
+                ]
+              },
+              "process": {
+                "badge": "PRODUCTION PROCESS",
+                "title_part1": "From",
+                "title_part2": "Raw Material to Finished Product",
+                "description": "We follow a systematic and well-controlled manufacturing process to ensure the highest quality standards.",
+                "steps": [
+                  {
+                    "step": "01",
+                    "icon": "Leaf",
+                    "title": "Raw Material",
+                    "description": "Sourcing of high-quality raw materials from approved vendors."
+                  },
+                  {
+                    "step": "02",
+                    "icon": "Factory",
+                    "title": "Manufacturing",
+                    "description": "Production under controlled and automated conditions."
+                  },
+                  {
+                    "step": "03",
+                    "icon": "ClipboardCheck",
+                    "title": "Quality Check",
+                    "description": "Rigorous in-process and final testing to ensure product quality."
+                  },
+                  {
+                    "step": "04",
+                    "icon": "PackageCheck",
+                    "title": "Packaging",
+                    "description": "Safe and secure packaging to maintain product stability and integrity."
+                  }
+                ]
+              },
+              "hygiene_safety": {
+                "badge": "HYGIENE & SAFETY STANDARDS",
+                "title_part1": "Safety",
+                "title_part2": "at Every Step",
+                "description": "We maintain strict hygiene and safety protocols across all manufacturing areas to ensure a clean, safe and compliant production environment.",
+                "image": "/expertise/4.webp",
+                "features": [
+                  {
+                    "icon": "Sparkles",
+                    "title": "Cleanroom Facilities"
+                  },
+                  {
+                    "icon": "Spray",
+                    "title": "Strict Sanitation Practices"
+                  },
+                  {
+                    "icon": "HardHat",
+                    "title": "Safety Compliance & Training"
+                  }
+                ]
+              }
+            },
+            "manufacturing_overview": {
+              "badge": "MANUFACTURING FACILITIES",
+              "title_part1": "World-Class",
+              "title_part2": "Manufacturing Facilities",
+              "description": "Our state-of-the-art manufacturing facilities are designed to deliver high-quality pharmaceutical products that meet global standards, ensuring safety, efficacy and reliability at every stage of production.",
+              "image": "/banner/corporate.webp"
+            },
+            "manufacturing_infrastructure": {
+              "badge": "MODERN INFRASTRUCTURE",
+              "title_part1": "Built for",
+              "title_part2": "Excellence",
+              "description": "Our modern manufacturing unit is equipped with advanced infrastructure, world-class equipment and a highly skilled team to ensure efficient and consistent production of high-quality pharmaceutical products.",
+              "image": "/banner/mfg1.webp",
+              "features": [
+                {
+                  "icon": "Building2",
+                  "title": "Spacious Facility"
+                },
+                {
+                  "icon": "Settings",
+                  "title": "Advanced Technology"
+                },
+                {
+                  "icon": "ShieldCheck",
+                  "title": "GMP Compliant"
+                }
+              ]
+            },
+            "manufacturing_machinery": {
+              "badge": "ADVANCED MACHINERY",
+              "title_part1": "Precision",
+              "title_part2": "& Innovation",
+              "description": "We use automated and high-performance machinery to ensure accurate manufacturing, better process control and consistent product quality.",
+              "images": [
+                "/expertise/3.webp",
+                "/banner/mfg2.webp"
+              ]
+            },
+            "manufacturing_capabilities": {
+              "badge": "MANUFACTURING CAPABILITIES",
+              "title_part1": "Diverse",
+              "title_part2": "Product Range",
+              "description": "Our facility is capable of producing a wide range of pharmaceutical products to meet domestic and international market needs.",
+              "items": [
+                {
+                  "icon": "Pill",
+                  "badge_color": "bg-[#0284c7]",
+                  "title": "Tablets",
+                  "description": "High-volume tablet production with precise dosage and quality control."
+                },
+                {
+                  "icon": "Capsule",
+                  "badge_color": "bg-[#0d9488]",
+                  "title": "Capsules",
+                  "description": "Wide range of hard gelatin capsules with high accuracy."
+                },
+                {
+                  "icon": "Bottle",
+                  "badge_color": "bg-[#06b6d4]",
+                  "title": "Syrups",
+                  "description": "Liquid formulations produced under strict quality standards."
+                },
+                {
+                  "icon": "Syringe",
+                  "badge_color": "bg-[#059669]",
+                  "title": "Injections",
+                  "description": "Sterile manufacturing for a range of injectable products."
+                },
+                {
+                  "icon": "Tube",
+                  "badge_color": "bg-[#2563eb]",
+                  "title": "Ointments & Creams",
+                  "description": "Topical formulations manufactured in controlled environments."
+                }
+              ]
+            },
+            "manufacturing_process": {
+              "badge": "PRODUCTION PROCESS",
+              "title_part1": "From",
+              "title_part2": "Raw Material to Finished Product",
+              "description": "We follow a systematic and well-controlled manufacturing process to ensure the highest quality standards.",
+              "steps": [
+                {
+                  "step": "01",
+                  "icon": "Leaf",
+                  "title": "Raw Material",
+                  "description": "Sourcing of high-quality raw materials from approved vendors."
+                },
+                {
+                  "step": "02",
+                  "icon": "Factory",
+                  "title": "Manufacturing",
+                  "description": "Production under controlled and automated conditions."
+                },
+                {
+                  "step": "03",
+                  "icon": "ClipboardCheck",
+                  "title": "Quality Check",
+                  "description": "Rigorous in-process and final testing to ensure product quality."
+                },
+                {
+                  "step": "04",
+                  "icon": "PackageCheck",
+                  "title": "Packaging",
+                  "description": "Safe and secure packaging to maintain product stability and integrity."
+                }
+              ]
+            },
+            "manufacturing_hygiene_safety": {
+              "badge": "HYGIENE & SAFETY STANDARDS",
+              "title_part1": "Safety",
+              "title_part2": "at Every Step",
+              "description": "We maintain strict hygiene and safety protocols across all manufacturing areas to ensure a clean, safe and compliant production environment.",
+              "image": "/expertise/4.webp",
+              "features": [
+                {
+                  "icon": "Sparkles",
+                  "title": "Cleanroom Facilities"
+                },
+                {
+                  "icon": "Spray",
+                  "title": "Strict Sanitation Practices"
+                },
+                {
+                  "icon": "HardHat",
+                  "title": "Safety Compliance & Training"
+                }
+              ]
+            },
+            "not_found": {
+              "badge": "ERROR 404",
+              "error_code": "404",
+              "title": "Oops! Page Not Found",
+              "title_highlight": "Not Found",
+              "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. Don't worry, you can easily navigate back home or explore our product range.",
+              "primary_button": {
+                "text": "Back to Homepage",
+                "href": "/"
+              },
+              "secondary_button": {
+                "text": "Explore Our Products",
+                "href": "/products"
+              },
+              "quick_links_title": "Popular Pages You Might Be Looking For:",
+              "quick_links": [
+                {
+                  "name": "About Us",
+                  "href": "/about"
+                },
+                {
+                  "name": "Our Products",
+                  "href": "/products"
+                },
+                {
+                  "name": "Manufacturing Facilities",
+                  "href": "/manufacturing-facilities"
+                },
+                {
+                  "name": "Contact Us",
+                  "href": "/contact"
+                },
+                {
+                  "name": "Enquiry Now",
+                  "href": "/enquiry-now"
+                }
+              ]
             }
           }
         }

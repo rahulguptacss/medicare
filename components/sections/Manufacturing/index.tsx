@@ -95,7 +95,7 @@ export default function Manufacturing({ data }: any) {
           {/* Main Image */}
           <div className="rounded-[1rem] lg:rounded-[2rem] overflow-hidden shadow-md relative z-10 ml-4 lg:ml-6 mb-6 sm:mb-8">
             <img 
-              src={data?.images?.[0] || "/banner/mfg1.png"} 
+              src={data?.images?.[0] || "/banner/mfg1.webp"} 
               alt="Manufacturing Facility" 
               className="w-full h-auto aspect-[4/3] object-cover" 
             />
@@ -105,7 +105,7 @@ export default function Manufacturing({ data }: any) {
           <div className="absolute bottom-0 left-0 w-[60%] sm:w-[55%] lg:w-[50%] z-20">
             <div className="rounded-[0.75rem] lg:rounded-[1.25rem] overflow-hidden shadow-2xl border-[4px] sm:border-[6px] lg:border-[8px] border-white">
               <img 
-                src={data?.images?.[1] || "/banner/mfg2.png"} 
+                src={data?.images?.[1] || "/banner/mfg2.webp"} 
                 alt="Manufacturing Details" 
                 className="w-full h-auto aspect-[4/3] object-cover" 
               />
