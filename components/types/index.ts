@@ -4,7 +4,10 @@ export interface LinkType {
   name: string;
   href: string;
   active?: boolean;
+  children?: LinkType[];
 }
+
+export type NavItem = LinkType;
 
 export interface TopbarSocialItem {
   icon: string;
