@@ -2,12 +2,11 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { User, MessagesSquare, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { User, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 
 import Topbar from '@/components/sections/Topbar';
 import Header from '@/components/sections/Header';
 import Breadcrumb from '@/components/sections/Breadcrumb';
-import CtaBanner from '@/components/sections/CtaBanner';
 import Footer from '@/components/sections/Footer';
 import { common, pages, sections } from '@/components/types';
 
@@ -77,11 +76,6 @@ export default function Blogs({ data }: { data: any }) {
                       <div className="flex items-center gap-2 hover:text-[#0066ff] cursor-pointer transition-colors">
                         <User className="w-[18px] h-[18px] text-[#0066ff]" strokeWidth={1.5} />
                         <span>{blog.author || 'Admin'}</span>
-                      </div>
-                      <span className="mx-3 text-[#d1d5db]">/</span>
-                      <div className="flex items-center gap-2 hover:text-[#0066ff] cursor-pointer transition-colors">
-                        <MessagesSquare className="w-[18px] h-[18px] text-[#0066ff]" strokeWidth={1.5} />
-                        <span>{blog.comments || 'No Comment'}</span>
                       </div>
                     </div>
 
@@ -157,8 +151,6 @@ export default function Blogs({ data }: { data: any }) {
 
           </div>
         </section>
-
-        <CtaBanner data={sections.cta_banner} />
       </main>
 
       <Footer data={common.Footer} />

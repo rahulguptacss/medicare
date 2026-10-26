@@ -8,7 +8,6 @@ import MissionVision from '../../components/sections/MissionVision';
 import Expertise from '../../components/sections/Expertise';
 import WhyChooseUs from '../../components/sections/WhyChooseUs';
 import Infrastructure from '../../components/sections/Infrastructure';
-import CtaBanner from '../../components/sections/CtaBanner';
 import Footer from '../../components/sections/Footer';
 import { common, pages, sections } from '../../components/types';
 
@@ -37,8 +36,6 @@ export default function AboutPage() {
         <WhyChooseUs data={sections.why_choose_us} />
 
         <Infrastructure data={sections.infrastructure} />
-
-        <CtaBanner data={sections.cta_banner} />
       </main>
 
       <Footer data={common.Footer} />

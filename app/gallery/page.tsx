@@ -3,7 +3,6 @@ import Topbar from '@/components/sections/Topbar';
 import Header from '@/components/sections/Header';
 import Breadcrumb from '@/components/sections/Breadcrumb';
 import Gallery from '@/components/sections/Gallery';
-import CtaBanner from '@/components/sections/CtaBanner';
 import Footer from '@/components/sections/Footer';
 import { common, pages, sections } from '@/components/types';
 
@@ -22,8 +21,6 @@ export default function GalleryPage() {
         <Breadcrumb data={pages?.gallery?.breadcrumb} />
 
         <Gallery data={sections.gallery} />
-
-        <CtaBanner data={sections.cta_banner} />
       </main>
 
       <Footer data={common.Footer} />

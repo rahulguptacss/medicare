@@ -81,6 +81,9 @@ export interface GallerySectionData {
   titleHighlight?: string;
   description?: string;
   items?: GalleryItem[];
+  initial_items?: number;
+  items_per_load?: number;
+  load_more_text?: string;
 }
 
 export interface FaqItem {

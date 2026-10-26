@@ -131,10 +131,6 @@
           "href": "/manufacturing-facilities"
         },
         {
-          "name": "Gallery",
-          "href": "/gallery"
-        },
-        {
           "name": "FAQ",
           "href": "/faq"
         },
@@ -304,10 +300,6 @@
                 {
                   "key": "InfrastructureSection",
                   "component": "Infrastructure"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -338,10 +330,6 @@
                 {
                   "key": "ProductsSection",
                   "component": "Products"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -375,10 +363,6 @@
                 {
                   "key": "ProductDetailsSection",
                   "component": "ProductDetails"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -408,10 +392,6 @@
                 {
                   "key": "BlogsSection",
                   "component": "Blogs"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -445,10 +425,6 @@
                 {
                   "key": "BlogDetailSection",
                   "component": "BlogDetail"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -478,10 +454,6 @@
                 {
                   "key": "TeamSection",
                   "component": "Team"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -513,10 +485,6 @@
                 {
                   "key": "GallerySection",
                   "component": "Gallery"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -548,10 +516,6 @@
                 {
                   "key": "FaqSection",
                   "component": "Faq"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -583,10 +547,6 @@
                 {
                   "key": "ContactSection",
                   "component": "Contact"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -618,10 +578,6 @@
                 {
                   "key": "EnquirySection",
                   "component": "Enquiry"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -673,10 +629,6 @@
                 {
                   "key": "ManufacturingHygieneSafetySection",
                   "component": "ManufacturingHygieneSafety"
-                },
-                {
-                  "key": "CtaBannerSection",
-                  "component": "CtaBanner"
                 }
               ]
             },
@@ -764,7 +716,7 @@
               ]
             },
             "products": {
-              "subtitle": "OUR CORE RANGE",
+              "subtitle": "OUR PRODUCTS",
               "title_line1": "Wide Range of",
               "title_highlight": "Pharmaceutical Products",
               "description": "We offer a comprehensive range of high-quality pharmaceutical products across various therapeutic segments, ensuring access to affordable and effective medications.",

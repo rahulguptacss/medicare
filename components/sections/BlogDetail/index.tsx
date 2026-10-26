@@ -4,7 +4,6 @@ import { CalendarDays, User, CheckCircle2, FlaskConical, Settings, ShieldCheck, 
 import Topbar from '@/components/sections/Topbar';
 import Header from '@/components/sections/Header';
 import Breadcrumb from '@/components/sections/Breadcrumb';
-import CtaBanner from '@/components/sections/CtaBanner';
 import Footer from '@/components/sections/Footer';
 import { common, pages, sections } from '@/components/types';
 
@@ -326,8 +325,6 @@ export default function BlogDetail({ blog, recentPosts }: { blog: any, recentPos
             </div>
           </div>
         </section>
-
-        <CtaBanner data={sections.cta_banner} />
       </main>
 
       <Footer data={common.Footer} />

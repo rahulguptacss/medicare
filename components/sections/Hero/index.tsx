@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Play, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const PlusPattern = ({ className }: { className: string }) => (
@@ -71,7 +71,7 @@ export default function Hero({ data }: any) {
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-[1.2] mb-4"
+                className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-[1.2] mb-6 sm:mb-8"
               >
                 {activeData?.title_line1 || "Quality Medicines"} <br/>
                 {activeData?.title_line2 || "for a "} 
@@ -80,43 +80,25 @@ export default function Hero({ data }: any) {
                 </span>
               </motion.h1>
               
-              {/* Description */}
-              <motion.p 
-                initial={{ opacity: 0, x: -30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-                className="text-gray-300 mb-8 text-sm md:text-base leading-relaxed max-w-[90%] mx-auto lg:mx-0"
-              >
-                {activeData?.description || "We are committed to manufacturing high-quality, safe and affordable pharmaceutical products to improve lives and build a healthier world."}
-              </motion.p>
-              
-              {/* Buttons */}
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
-                className="flex flex-wrap items-center justify-center lg:justify-start gap-4"
-              >
-                <a 
-                  href={activeData?.primary_button?.href || "#"} 
-                  className="group bg-[#02c3c6] hover:bg-[#02a9ab] text-white pl-5 pr-1.5 py-1.5 rounded-full font-bold transition-all flex items-center gap-3 shadow-lg shadow-[#02c3c6]/20"
+              {/* Primary Button */}
+              {activeData?.primary_button && (
+                <motion.div 
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                  className="flex items-center justify-center lg:justify-start"
                 >
-                  <span className="text-xs md:text-sm">{activeData?.primary_button?.text?.replace(' →', '') || "Explore Our Products"}</span>
-                  <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center text-[#02c3c6] group-hover:translate-x-1 transition-transform">
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </div>
-                </a>
-                
-                <a 
-                  href={activeData?.secondary_button?.href || "#"} 
-                  className="group border border-white/60 hover:border-white hover:bg-white/5 text-white pl-1.5 pr-5 py-1.5 rounded-full font-bold transition-all flex items-center gap-3"
-                >
-                  <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center text-[#07325b] group-hover:scale-110 transition-transform">
-                    <Play className="w-3.5 h-3.5 ml-0.5" fill="currentColor" />
-                  </div>
-                  <span className="text-xs md:text-sm font-medium">{activeData?.secondary_button?.text || "Watch Video"}</span>
-                </a>
-              </motion.div>
+                  <a 
+                    href={activeData?.primary_button?.href || "#"} 
+                    className="group bg-[#02c3c6] hover:bg-[#02a9ab] text-white pl-5 pr-1.5 py-1.5 rounded-full font-bold transition-all flex items-center gap-3 shadow-lg shadow-[#02c3c6]/20"
+                  >
+                    <span className="text-xs md:text-sm">{activeData?.primary_button?.text?.replace(' →', '') || "Explore Our Products"}</span>
+                    <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center text-[#02c3c6] group-hover:translate-x-1 transition-transform">
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </div>
+                  </a>
+                </motion.div>
+              )}
             </div>
 
             {/* Right Content - Scientist Image & Floating Badge */}

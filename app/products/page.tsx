@@ -3,7 +3,6 @@ import Topbar from '@/components/sections/Topbar';
 import Header from '@/components/sections/Header';
 import Breadcrumb from '@/components/sections/Breadcrumb';
 import Products from '@/components/sections/Products';
-import CtaBanner from '@/components/sections/CtaBanner';
 import Footer from '@/components/sections/Footer';
 import { common, pages, sections } from '@/components/types';
 
@@ -26,9 +25,6 @@ export default function ProductsPage() {
 
         {/* Products Section */}
         <Products data={sections.products} isPage={true} />
-
-        {/* CTA Banner Section */}
-        <CtaBanner data={sections.cta_banner} />
       </main>
 
       <Footer data={common.Footer} />

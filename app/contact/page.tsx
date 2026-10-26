@@ -3,7 +3,6 @@ import Topbar from '@/components/sections/Topbar';
 import Header from '@/components/sections/Header';
 import Breadcrumb from '@/components/sections/Breadcrumb';
 import Contact from '@/components/sections/Contact';
-import CtaBanner from '@/components/sections/CtaBanner';
 import Footer from '@/components/sections/Footer';
 import { common, pages, sections } from '@/components/types';
 
@@ -22,8 +21,6 @@ export default function ContactPage() {
         <Breadcrumb data={pages?.contact?.breadcrumb} />
 
         <Contact data={sections.contact} />
-
-        <CtaBanner data={sections.cta_banner} />
       </main>
 
       <Footer data={common.Footer} />

@@ -10,7 +10,6 @@ export default function Footer({ data }: any) {
     { name: "About Us", href: "/about" },
     { name: "Our Products", href: "/products" },
     { name: "Manufacturing Facilities", href: "/manufacturing-facilities" },
-    { name: "Gallery", href: "/gallery" },
     { name: "FAQ", href: "/faq" },
     { name: "Contact Us", href: "/contact" },
     { name: "Enquiry Now", href: "/enquiry-now" }
@@ -30,13 +29,10 @@ export default function Footer({ data }: any) {
   const quickLinksTitle = data?.quick_links_title || "Quick Links";
   const productRangeTitle = data?.product_range_title || "Our Product Range";
   const contactTitle = data?.contact_title || "Contact Information";
-  const galleryTitle = data?.gallery_title || "Our Gallery";
   const aboutText = data?.description || "We are committed to delivering high quality pharmaceutical products for a healthier and brighter future.";
   const logoSrc = data?.logo || "/logo/white-logo.webp";
   const logoAlt = data?.logo_text || "Medicare Life Sciences";
   const copyrightText = data?.copyright || "Copyright © 2026. All rights reserved. Powered by Lestow";
-  const galleryViewAllText = data?.gallery_view_all_text || "View All Photos";
-  const galleryViewAllLink = data?.gallery_view_all_link || "/gallery";
 
   return (
     <footer className="relative bg-[#021f3a] text-gray-300 pt-12 pb-6 text-sm overflow-hidden border-t border-white/5">
@@ -46,13 +42,13 @@ export default function Footer({ data }: any) {
         <div className="absolute inset-0 bg-[#021f3a]/90"></div>
       </div>
 
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-10 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-10 lg:gap-y-0 mb-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-8 lg:gap-x-0 lg:gap-y-0 mb-10">
 
           {/* Column 1: Logo & About */}
-          <div className="lg:col-span-3 lg:pr-8 xl:pr-10 lg:border-r border-white/10">
+          <div className="lg:pr-8 xl:pr-10 lg:border-r border-white/10">
             <img src={logoSrc} alt={logoAlt} className="h-16 sm:h-20 mb-4 object-contain" />
-            <p className="text-[#a8b8c8] text-[11px] leading-relaxed mb-5 pr-4">
+            <p className="text-[#a8b8c8] text-[11px] leading-relaxed mb-5 pr-2">
               {aboutText}
             </p>
             <div className="flex gap-2">
@@ -95,7 +91,7 @@ export default function Footer({ data }: any) {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="lg:col-span-2 lg:px-4 xl:px-5 lg:border-r border-white/10">
+          <div className="lg:px-6 xl:px-8 lg:border-r border-white/10">
             <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
               {quickLinksTitle}
               <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
@@ -113,7 +109,7 @@ export default function Footer({ data }: any) {
           </div>
 
           {/* Column 3: Product Range */}
-          <div className="lg:col-span-2 lg:px-4 xl:px-5 lg:border-r border-white/10">
+          <div className="lg:px-6 xl:px-8 lg:border-r border-white/10">
             <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
               {productRangeTitle}
               <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
@@ -131,7 +127,7 @@ export default function Footer({ data }: any) {
           </div>
 
           {/* Column 4: Contact Info */}
-          <div className="lg:col-span-3 lg:px-8 xl:px-10 lg:border-r border-white/10">
+          <div className="lg:pl-6 xl:pl-8">
             <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
               {contactTitle}
               <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
@@ -176,27 +172,6 @@ export default function Footer({ data }: any) {
               </li>
 
             </ul>
-          </div>
-
-          {/* Column 5: Gallery */}
-          <div className="lg:col-span-2 lg:pl-8 xl:pl-10">
-            <h4 className="text-white font-bold text-[14px] mb-4 relative pb-2">
-              {galleryTitle}
-              <span className="absolute bottom-0 left-0 w-6 h-[2px] bg-[#00a2c0]"></span>
-            </h4>
-            <div className="grid grid-cols-2 gap-2 mb-4">
-              {(data?.gallery?.length > 0 ? data.gallery.slice(0, 4) : [
-                { image: "/expertise/1.webp", alt: "Manufacturing" },
-                { image: "/expertise/2.webp", alt: "Research" },
-                { image: "/expertise/3.webp", alt: "Quality Testing" },
-                { image: "/expertise/4.webp", alt: "Distribution" }
-              ]).map((g: any, idx: number) => (
-                <img key={idx} src={g.image} className="w-full h-12 sm:h-14 object-cover rounded-md border border-white/20 hover:opacity-80 transition-opacity cursor-pointer" alt={g.alt || `Gallery ${idx + 1}`} />
-              ))}
-            </div>
-            <a href={galleryViewAllLink} className="text-[#00a2c0] hover:text-white transition-colors text-[11px] font-semibold flex items-center gap-1.5 inline-flex">
-              {galleryViewAllText} <ChevronRight className="w-3 h-3" strokeWidth={2.5} />
-            </a>
           </div>
 
         </div>

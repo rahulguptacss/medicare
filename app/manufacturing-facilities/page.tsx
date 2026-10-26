@@ -8,7 +8,6 @@ import ManufacturingMachinery from '@/components/sections/ManufacturingMachinery
 import ManufacturingCapabilities from '@/components/sections/ManufacturingCapabilities';
 import ManufacturingProcess from '@/components/sections/ManufacturingProcess';
 import ManufacturingHygieneSafety from '@/components/sections/ManufacturingHygieneSafety';
-import CtaBanner from '@/components/sections/CtaBanner';
 import Footer from '@/components/sections/Footer';
 import { common, pages, sections } from '@/components/types';
 
@@ -58,9 +57,6 @@ export default function ManufacturingFacilitiesPage() {
         <ManufacturingHygieneSafety 
           data={sections?.manufacturing_hygiene_safety || sections?.manufacturing_facilities?.hygiene_safety} 
         />
-
-        {/* 7. CTA Banner Section */}
-        <CtaBanner data={sections.cta_banner} />
       </main>
 
       <Footer data={common.Footer} />

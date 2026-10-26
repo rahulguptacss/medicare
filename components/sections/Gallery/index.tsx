@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Maximize2, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Maximize2, X, ChevronLeft, ChevronRight, Loader2, ChevronDown } from 'lucide-react';
 import { GallerySectionData } from '@/components/types';
 
 export default function Gallery({ data }: { data?: GallerySectionData }) {
@@ -12,18 +12,35 @@ export default function Gallery({ data }: { data?: GallerySectionData }) {
   const description = data?.description || "Take a look at our state-of-the-art manufacturing facilities, advanced technology, quality control processes and team in action.";
   const items = data?.items || [];
 
+  const INITIAL_COUNT = data?.initial_items || 8;
+  const LOAD_COUNT = data?.items_per_load || 4;
+
+  const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
+  const [isLoading, setIsLoading] = useState(false);
+
   // Lightbox state
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
 
+  const visibleItems = items.slice(0, visibleCount);
+  const hasMore = visibleCount < items.length;
+
+  const handleLoadMore = () => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setVisibleCount((prev) => Math.min(prev + LOAD_COUNT, items.length));
+      setIsLoading(false);
+    }, 350);
+  };
+
   const handlePrev = useCallback(() => {
-    if (selectedIdx === null || items.length === 0) return;
-    setSelectedIdx((prev) => (prev === null ? 0 : (prev - 1 + items.length) % items.length));
-  }, [selectedIdx, items.length]);
+    if (selectedIdx === null || visibleItems.length === 0) return;
+    setSelectedIdx((prev) => (prev === null ? 0 : (prev - 1 + visibleItems.length) % visibleItems.length));
+  }, [selectedIdx, visibleItems.length]);
 
   const handleNext = useCallback(() => {
-    if (selectedIdx === null || items.length === 0) return;
-    setSelectedIdx((prev) => (prev === null ? 0 : (prev + 1) % items.length));
-  }, [selectedIdx, items.length]);
+    if (selectedIdx === null || visibleItems.length === 0) return;
+    setSelectedIdx((prev) => (prev === null ? 0 : (prev + 1) % visibleItems.length));
+  }, [selectedIdx, visibleItems.length]);
 
   const handleClose = useCallback(() => {
     setSelectedIdx(null);
@@ -76,51 +93,90 @@ export default function Gallery({ data }: { data?: GallerySectionData }) {
 
         {/* 4-Column Responsive Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
-          {items.map((item, idx) => (
-            <motion.div
-              key={item.id || idx}
-              initial={{ opacity: 0, y: 25 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.45, delay: (idx % 4) * 0.08 }}
-              onClick={() => setSelectedIdx(idx)}
-              className="bg-white rounded-2xl border border-gray-200/90 p-2 sm:p-2.5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.09)] hover:-translate-y-1.5 transition-all duration-300 group cursor-pointer overflow-hidden flex flex-col"
-            >
-              {/* Image Frame */}
-              <div className="w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden bg-gray-100 relative">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500 ease-out"
-                  loading="lazy"
-                />
+          <AnimatePresence mode="popLayout">
+            {visibleItems.map((item, idx) => (
+              <motion.div
+                key={item.id || idx}
+                layout
+                initial={{ opacity: 0, y: 25, scale: 0.96 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.96 }}
+                transition={{ duration: 0.4, delay: (idx % 4) * 0.05 }}
+                onClick={() => setSelectedIdx(idx)}
+                className="bg-white rounded-2xl border border-gray-200/90 p-2 sm:p-2.5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.09)] hover:-translate-y-1.5 transition-all duration-300 group cursor-pointer overflow-hidden flex flex-col"
+              >
+                {/* Image Frame */}
+                <div className="w-full aspect-[4/3] rounded-xl sm:rounded-2xl overflow-hidden bg-gray-100 relative">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500 ease-out"
+                    loading="lazy"
+                  />
 
-                {/* Subtle Hover Gradient & Overlay Icon */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#071536]/80 via-[#071536]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 sm:p-3.5">
-                  {item.category && (
-                    <span className="text-[10px] uppercase font-bold tracking-wider text-[#00e5ff] drop-shadow-sm mb-1">
-                      {item.category}
-                    </span>
-                  )}
-                  <h4 className="text-white text-[13px] sm:text-[14px] font-bold leading-snug drop-shadow-sm line-clamp-1">
-                    {item.title}
-                  </h4>
-                </div>
+                  {/* Subtle Hover Gradient & Overlay Icon */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#071536]/80 via-[#071536]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 sm:p-3.5">
+                    {item.category && (
+                      <span className="text-[10px] uppercase font-bold tracking-wider text-[#00e5ff] drop-shadow-sm mb-1">
+                        {item.category}
+                      </span>
+                    )}
+                    <h4 className="text-white text-[13px] sm:text-[14px] font-bold leading-snug drop-shadow-sm line-clamp-1">
+                      {item.title}
+                    </h4>
+                  </div>
 
-                {/* Floating Zoom Button */}
-                <div className="absolute top-2.5 right-2.5 w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm text-[#071536] group-hover:text-[#00a2c0] flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transform translate-y-1 group-hover:translate-y-0 transition-all duration-300">
-                  <Maximize2 className="w-3.5 h-3.5" />
+                  {/* Floating Zoom Button */}
+                  <div className="absolute top-2.5 right-2.5 w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm text-[#071536] group-hover:text-[#00a2c0] flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transform translate-y-1 group-hover:translate-y-0 transition-all duration-300">
+                    <Maximize2 className="w-3.5 h-3.5" />
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </div>
+
+        {/* Load More Button Section */}
+        {items.length > INITIAL_COUNT && (
+          <div className="mt-10 sm:mt-12 flex flex-col items-center justify-center gap-3">
+            <p className="text-xs sm:text-sm font-medium text-gray-500">
+              Showing <span className="font-bold text-[#071536]">{visibleItems.length}</span> of{' '}
+              <span className="font-bold text-[#071536]">{items.length}</span> Photos
+            </p>
+
+            {hasMore ? (
+              <motion.button
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={handleLoadMore}
+                disabled={isLoading}
+                className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-gradient-to-r from-[#00a2c0] to-[#008e9b] text-white text-sm font-bold shadow-[0_8px_20px_rgba(0,162,192,0.25)] hover:shadow-[0_12px_28px_rgba(0,162,192,0.35)] transition-all disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
+              >
+                {isLoading ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin text-white" />
+                    <span>Loading Photos...</span>
+                  </>
+                ) : (
+                  <>
+                    <span>{data?.load_more_text || 'Load More Photos'}</span>
+                    <ChevronDown className="w-4 h-4 text-white" />
+                  </>
+                )}
+              </motion.button>
+            ) : (
+              <div className="flex items-center gap-2 text-xs font-semibold text-[#00a2c0] bg-[#00a2c0]/10 px-4 py-1.5 rounded-full">
+                <span>All photos loaded</span>
+              </div>
+            )}
+          </div>
+        )}
 
       </div>
 
       {/* Lightbox Modal */}
       <AnimatePresence>
-        {selectedIdx !== null && items[selectedIdx] && (
+        {selectedIdx !== null && visibleItems[selectedIdx] && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -142,18 +198,18 @@ export default function Gallery({ data }: { data?: GallerySectionData }) {
               <div className="flex items-center justify-between px-5 py-3.5 border-b border-gray-100 bg-white">
                 <div>
                   <h3 className="text-base sm:text-lg font-bold text-[#071536]">
-                    {items[selectedIdx].title}
+                    {visibleItems[selectedIdx].title}
                   </h3>
-                  {items[selectedIdx].category && (
+                  {visibleItems[selectedIdx].category && (
                     <span className="text-xs font-semibold text-[#00a2c0]">
-                      {items[selectedIdx].category}
+                      {visibleItems[selectedIdx].category}
                     </span>
                   )}
                 </div>
 
                 <div className="flex items-center gap-3">
                   <span className="text-xs font-bold text-gray-400 bg-gray-100 px-3 py-1 rounded-full">
-                    {selectedIdx + 1} / {items.length}
+                    {selectedIdx + 1} / {visibleItems.length}
                   </span>
                   <button
                     onClick={handleClose}
@@ -168,8 +224,8 @@ export default function Gallery({ data }: { data?: GallerySectionData }) {
               {/* Main Image Container */}
               <div className="relative bg-gray-950 flex items-center justify-center max-h-[70vh] min-h-[300px] overflow-hidden">
                 <img
-                  src={items[selectedIdx].image}
-                  alt={items[selectedIdx].title}
+                  src={visibleItems[selectedIdx].image}
+                  alt={visibleItems[selectedIdx].title}
                   className="max-h-[70vh] w-auto object-contain mx-auto select-none"
                 />
 
